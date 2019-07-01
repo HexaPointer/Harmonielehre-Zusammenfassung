@@ -1,0 +1,443 @@
+\documentclass[a4paper]{article}
+\usepackage[ngerman]{babel}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amstext}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{musixtex}
+\usepackage{harmony}
+
+\newcommand{\dS}[1]{\HH.\uppercase\expandafter{\romannumeral #1\relax}.....}
+\newcommand{\dSS}[1]{\HH.\uppercase\expandafter{\romannumeral #1\relax}..6...}
+\newcommand{\dSQS}[1]{\HH.\uppercase\expandafter{\romannumeral #1\relax}..6.4..}
+\newcommand{\dShoch}[4]{\HH.\uppercase\expandafter{\romannumeral #1\relax}..#2.#3.#4.}
+\newcommand{\mS}[1]{\textbf{\romannumeral #1}}
+\newcommand{\mSS}[1]{\HH.\romannumeral #1..6...}
+\newcommand{\mSQS}[1]{\HH.\romannumeral #1..6.4..}
+\newcommand{\mShoch}[4]{\HH.\romannumeral #1..#2.#3.#4.}
+\newcommand{\vermStufe}[1]{\textbf{\romannumeral #1\textdegree}}
+
+%DUR FUNKTIONSTHEORIE
+\newcommand{\T}{\HH.T.....}
+\newcommand{\TS}{\HH.T.3....}
+\newcommand{\TQS}{\HH.T.5....}
+\renewcommand{\S}{\HH.S.....}
+\renewcommand{\SS}{\HH.S.3....}
+\newcommand{\SQS}{\HH.S.5....}
+\newcommand{\SA}{\HH.S..6.5..}
+\newcommand{\D}{\HH.D.....}
+\newcommand{\DSe}{\HH.D.3....}
+\newcommand{\DQS}{\HH.D.5....}
+\newcommand{\Dhoch}[2]{\HH.D.#2.#1...}
+\newcommand{\Dhochv}[2]{\HH.\Ohne{D}.#2.#1...}
+
+
+%MOLL FUNKTIONSTHEORIE
+\newcommand{\Tm}{\HH.t.....}
+\newcommand{\TSm}{\HH.t.3....}
+\newcommand{\TQSm}{\HH.t.5....}
+\newcommand{\Sm}{\HH.s.....}
+\newcommand{\SSm}{\HH.s.3....}
+\newcommand{\SQSm}{\HH.s.5....}
+\newcommand{\sA}{\HH.s..6.5..}
+\newcommand{\Dm}{\HH.d.....}
+\newcommand{\DSem}{\HH.d.3....}
+\newcommand{\DQSm}{\HH.d.5....}
+
+\newcommand{\takt}[2]{\ensuremath{\substack{\mathbf{#1}\\ \mathbf{#2}}}}
+
+\title{Zusammenfassungen der Vorlesungen aus Harmonielehre}
+\author{Valenin Möller}
+\date{Juni 2019}
+\makeindex
+\begin{document}
+\maketitle
+\newpage
+\pdfbookmark[1]{Inhaltsverzeichnis}{toc}
+\tableofcontents
+\newpage
+\addcontentsline{toc}{part}{Vorwort}
+	\part*{Vorwort}
+	Dieses Dokument enthält Zusammenfassungen der Folien des WS18/19 und des SS19. Vollständigkeit und Richtigkeit wird nicht garantiert.
+	\newpage
+	\pagenumbering{arabic}
+	\part{Wintersemester 2018/2019: Vorlesungen 01-13}
+	\section{Grundlagen}
+	\subsection{Hauptdreiklänge}
+	Hauptdreiklänge sind Dreiklänge, die aus der Schichtung von leitereigenen Tönen in Terzabstand auf jeder Stufe einer Tonleiter entstehen.\\
+	Bei Dur-Tonleitern gilt: 
+	\begin{itemize}
+		\item Die Hauptdreiklänge über der ersten (\dS{1}), vierten (\dS{4}) und fünften Stufe (\dS{5}) sind Dur-Dreiklänge, also erst eine große Terz und dann eine kleine Terz aufgeschichtet. \\
+		Die erste Stufe nennt man in der Funktionstheorie Tonika\ (\T), die vierte Stufe Subdominante\ (\S) und die fünfte Dominante\ (\D).
+		\item Die Stufen \mS{2}, \mS{3}\ und \mS{6}\ sind Moll-Dreiklänge, hier ist erst eine kleine und dann eine große Terz aufgeschichtet.
+		\item Bei der siebten Stufe (\vermStufe{7}) handelt es sich um einen verminderten Dreiklang, bestehend aus zwei übereinander geschichteten kleinen Terzen.
+	\end{itemize}
+	\textit{Hinweis: Ab hier werden die Dur-Hauptdreiklänge größtenteils Funktionstheorie und in gekürzter Form} (Tonika\ = \T usw.) \textit{benannt.}
+	
+	\subsection{Quintverwandtschaft}
+	Mit Quintverwandschaft ist die Eigenschaft der \T, \S\ und \D\ beschrieben, dass diese jeweils einen Ton gemeinsam haben.\\
+	Die Quinte von \T\  ist der Grundton von \S, die Quinte von \T\ ist wiederum der Grundton der \D. (Dies lässt sich auch mit dem Quintenzirkel zeigen.)
+	
+	\subsection{Kadenz in Dur}
+	Eine einfache Kadenz in Dur ist in Dur die Akkordfolge \dS{1}-\dS{4}-\dS{5}-\dS{1}\ bzw.\\ \T-\S-\D-\T.
+	\subsubsection{Authentischer Schluss/Ganzschluss}
+	Der Ganzschluss ist Teil der einfachen Kadenz und beschreibt die Akkordfolge \D-\T.\\
+	Hierbei ist wichtig, dass der Leitton, der siebte Ton der Dur-Tonleiter, also die Terz der \D\ aufwärts zum Grundton der \T\ geführt wird. Im Idealfall geschieht außerdem ein Quartsprung im Bass nach oben (Oder Quintfall), von Grundton der \D\ zum Grundton der \T.
+	
+	\subsubsection{Plagalschluss}
+	Der Plagalschluss besteht aus der Akkordfolge \S-\T.\\
+	Er beinhaltet keine Strebetöne und hat deshalb nicht so eine starke Schlusswirkung wie ein Ganzschluss. Ein Quartfall/Quintsprung im Bass ist jedoch trotzdem möglich.
+	
+	\subsection{Tonumfänge}
+	Beim Aussetzen von Vierstimmigen Stücken gelten folgende Stimmumfänge der Einzelstimmen zu beachten:
+	\begin{description}
+		\item [Sopran:] c' - g''
+		\item [Alt:] g - c''
+		\item [Tenor:] c - g'
+		\item [Bass:] F - c'
+	\end{description}
+	Vor allem der Tonumfang des Tenors nach oben soll nach Möglichkeit ausgeschöpft werden.
+	
+	\subsection{Bewegungsarten}
+	Diese Bewegungsarten beziehen sich immer auf die hintereinander folgenden Töne von zwei oder mehreren Stimmen (gleichzeitig).
+	\begin{description}
+		\item [Geradbewegung:] Gleiche Richtung, ungleiche Intervalle
+		\item [Parallelbewegung:] Gleiche Richtung, gleiche Intervalle
+		\item [Gegenbewegung:] Gegensätzliche Richtung, also aufeinander zu oder voneinander weg
+		\item [Seitenbewegung:] Eine Stimme bleibt auf gleichen Ton liegen, eine andere bewegt sich.
+	\end{description}
+
+	\subsection{Lagenbegriffe}
+	\subsubsection{Abstandslage}
+	Die Abstandslage liest sich aus den Intervallen bzw. dem Platz zwischen den drei Oberstimmen ab.
+	\begin{description}
+		\item [Enge Lage:] Man kann keine weiteren akkordeigenen Töne zwischen die Oberstimmen setzen.
+		\item [Weite Lage:] Man kann zwischen die Oberstimmen noch weitere akkordeigene Töne setzen.
+		\item [Gemischte Lage:] Mischung aus enge und weite Lage, d.h. man kann akkordeigene Töne zwischen Oberstimmen setzen, aber nicht zwischen alle Oberstimmen.
+	\end{description}
+
+	\subsubsection{Diskantlage}
+	Die Diskantlage liest sich aus dem Ton in der Sopran-Stimme ab.
+	\begin{description}
+		\item[Oktavlage:] Grundton des Akkords im Sopran
+		\item[Terzlage:] Terz des Akkords im Sopran
+		\item[Quintlage:] Quinte des Akkords im Sopran
+	\end{description}
+	Der Diskant kann aber auch jeder andere Ton sein, dann spricht man beispielsweise von Septimlage, Sextlage, Nonlage usw.
+	
+	\section{Parallelverbot}
+	\textit{Dieser Abschnitt befasst sich mit Parallelbewegungen (Siehe 1.5), vor allem Prim-, Quint- und Oktavparallelen.}
+	\subsection{Arten von Parallelen}
+	\subsubsection{Offene Parallelen}
+	Offene Parallelbewegungen sind direkt aufeinander folgende Bewegungen von zwei oder mehr Stimmen in die gleiche Richtung im selben Rhythmus. Hier gilt:
+	\begin{quote}
+		\textbf{Es ist verboten, zwischen allen denkbaren Stimmkombinationen in offenen parallelen Primen, Quinten oder Oktaven fortzuschreiten.}
+	\end{quote}
+
+	\subsubsection{Akzentparallelen}
+	Bei Akzentparallelen geschieht die Parallelbewegung nicht zwingend in direkt aufeinanderfolgenden Tönen bzw. Akkorden, sondern auf betonten Zählzeiten; Im Falle vom \takt{4}{4}-Takt bspw. wäre eine Parallelbewegung zwischen Schlag \textit{1} und \textit{3} eine Akzentparallele.
+	
+	\subsubsection{Nachschlagende Parallelen}
+	Eine nachschlagende Parallele ist eine Parallelbewegung, bei die Töne die parallel geführt sind rhythmisch versetzt sind und somit nicht wie bei der offenen Parallele gleichzeitig erklingen.
+	
+	\subsubsection{Verdeckte Parallelen}
+	Verdeckte Parallelen entstehen wenn zwei Töne, die im ersten Zusammenklang nicht im Prim-, Quint- oder Oktavabstand befinden, sich dann in einen solchen bewegen.
+	
+	\subsection{Zusammenfassung Parallelen}
+	\begin{description}
+		\item[Offene Parallelen:] Offene Parallelen sind verboten!
+		\item[Akzentparallelen:] Akzentparallelen sind nicht empfehlenswert.
+		\item[Nachschlagende Parallelen:] Nachschlagende Parallelen sollten zwischen den Außenstimmen vermieden werden.
+		\item[Verdeckte Parallelen:] Verdeckte Parallelen sollten ähnlich wie nachschlagende Parallelen zwischen den Außenstimmen vermieden werden, allerdings nur wenn der Sopran in die Parallele \textit{springt}. Sonst werden diese auch häufig in der Literatur verwendet.
+	\end{description}
+
+	\section{Satzregeln}
+	Beim Aussetzen von Sätzen gibt es fünf grundsätzliche Regeln:
+	\subsection{Verdoppelung}
+	Da für gewöhnlich ein vierstimmiger Satz ausgesetzt, aber im einfachsten Fall Dreiklänge verwendet werden, muss ein Ton des Dreiklangs verdoppelt werden. Hierbei gilt folgende Hierachie:
+	\begin{enumerate}
+		\item[1] Möglichst den Akkordgrundton verdoppeln
+		\item[2] Falls dies stimmführungstechnisch schwierig ist, Quinte verdoppeln
+		\item[3] In Ausnahmefällen Terz verdoppeln. \textbf{Aber:} Verdoppeln der Dominantterz ist grundsätzlich verboten!
+	\end{enumerate}
+	\textit{Kurz: am besten Grundton, dann Quinte und im seltensten Fall Terz verdoppeln, aber nie den Leitton.} 
+
+	\subsection{Gegenbewegung}
+	Die einfachste Möglichkeit um Parallelbewegungen zu vermeiden, ist vor allem die Außenstimmen konsequent in Gegenbewegungen zu setzen.
+	
+	\subsection{Gesetz des nächsten Weges}
+	Das Gesetz des nächsten Weges besagt, dass versucht werden soll, in jeder Stimme auf möglichst kurzem Wege den nächsten Akkordton zu erreichen. Im Idealfall sollten gemeinsame Akkordtöne in Mittelstimmen liegen gelassen werden.\\
+	\textit{Kurz: Akkordtöne auf kürzestem Weg erreichen.}
+	
+	\subsection{Linearität}
+	Da Sopran und Bass für gewöhnlich in ihrer Linearität weitestgehend festgelegt sind, sollte vor allem bei den Mittelstimmen darauf geachtet werden, dass diese möglichst gesanglich und einfach ausführbar sind.\\
+	Daher sollte man möglichst Stufenbewegungen (Sekundschritte) und wenig Sprünge verwenden und "unsangliche" Intervalle wie Septimen und verminderte bzw. übermäßige Intervalle vermeiden.\\
+	\textit{Kurz: Melodiecharakter jeder Stimme anstreben.}
+	
+	\subsection{Stimmkreuzung}
+	Das Kreuzen von Stimmen bezeichnet das Vertauschen der Position von zwei Nachbarstimmen. In der Regel sollte dies generell vermieden werden, und ist eigentlich nur zwischen den Mittelstimmen erlaubt. \\
+	Stimmkreuzungen von Sopran und Alt führen nämlich zur Änderung der Melodie und Stimmkreuzungen von Tenor und Bass zur Änderung der Akkordstellung, deshalb sind diese nur in selten Ausnahmen erlaubt und sollten nur sehr kurzfristig stattfinden.
+	
+	\section{Akkordumkehrungen}
+	Eine Akkordumkehrung erreicht man durch Oktavieren des untersten Tons eines Akkords in Grundstellung nach oben. Dabei kriegen dann andere Töne als der Grundton die Bassfunktion.\\
+	Beim Dreiklang bleibt die Bezeichnung der Dreiklangstöne gleich (Grundton, Terz, Quinte). Ein Dreiklangsakkord ins Grundstellung bezeichnet man auch als \textbf{[Terz-]Quintakkord}.\\
+	\textit{Prinzipiell wird hier immer vom Grundakkord in enger Lage ausgegangen, der dann umgekehrt/invertiert wird.}
+	
+	\subsection{Sextakkorde}
+	Um Sextakkorde, oder auch Dreiklangsakkorde in erster Umkehrung, zu erhalten, wird der Grundton oktaviert, sodass das Intervall zwischen dem tiefsten und höchsten Ton (auch Rahmenintervall genannt) des Akkords nun eine Sexte ist (kleine Sexte bei Dur, große Sexte bei Moll).\\
+	Generell bedeutet ein Sextakkord nur, dass sich die Terz des Grundakkords sich im Bass befindet.\\
+	\textit{In der Funktionstheorie schreibt man den Basston unter das Funktionssymbol} (bspw. \TS) \textit{und in der Stufentheorie schreibt man die Akkordstellung neben die Stufe} (\dSS{1}).
+	
+	\subsubsection{Tonikasextakkord}
+	Der Tonikasextakkord \TS\ hat nicht mehr den Grundton im Bass, deshalb fehlt es an "Fundamentalität". Jedoch besitzt er eine klangsteigernde Wirkung und kann deshalb in der Verbindung \T-\TS-\S\ gut verwendet werden.
+	
+	\subsubsection{Subdominantsextakkord}
+	Ähnlich wieder der \TS\ wirkt auch der Subdominantsextakkord \SS\ klangsteigernd und hat die Fähigkeit/Tendenz zur harmonischen Fortentwicklung. Die Akkordfolge \SS-\TS\ eignet sich besonders zu Fortschreitung.
+	
+	\subsection{Dominantsextakkord}
+	Der Dominantsextakkord \DSe\ hat eine starke Wirkung, da die Terz der Dominante als Leitton fungiert. Nach dem Dominantsextakkord muss der die Tonika folgen, da Leittöne in den Außenstimmen immer aufwärts geführt werden müssen.\\ Dadurch ergibt sich \DSe-\T.
+	
+	\section{Harmoniefremde Töne}
+	Harmoniefremde Töne sind Töne, die nicht zum jeweiligen Akkord gehören und sind deshalb grundsätzlich als Dissonanzen aufzufassen.\\
+	Man unterscheidet hierbei zwischen harmoniefremden Tönen auf leichter/unbetonter Taktzeit und auf schwerer/betonter Taktzeit.\\
+	\textit{Im Notentext sind harmoniefremde Töne durch das entsprechende Symbol über der Note, mit dieser bestenfalls auch noch eingekreist, zu kennzeichnen.}
+	
+	\subsection{Harmoniefremde Töne auf unbetonter Taktzeit}
+	Auf unbetonter Taktzeit gibt es vier verschiedene Arten von harmoniefremden Tönen:
+	
+	\subsubsection{Durchgangsnoten}
+	Durchgangsnoten verbinden harmonieeigene Töne auf unbetonter Taktzeit durch eine stufenförmige Bewegung auf- oder abwärts. Dies kann auch in mehreren Stimmen gleichzeitig passieren, dabei  sind die Bewegungsrichtungen unabhängig.\\
+	\textit{Zur Kennzeichnung von Durchgangstönen verwendet man ein} "D".
+	
+	\subsubsection{Wechselnoten}
+	Ähnlich den Durchgangsnoten verbinden auch Wechselnoten auf unbetonten Taktzeiten harmonieeigene Töne durch eine stufenweise Bewegung. Jedoch sind hier die zwei verbundenen Töne gleich, das heißt man kehrt zum Ausgangspunkt zurück. Auch Wechselnoten können in mehreren Stimmen gleichzeitig auftauchen.\\
+	\textit{Zur Kennzeichnung von Wechselnoten verwendet man ein} "W".
+	
+	\subsubsection{Vorausnahmenoten}
+	Vorausnahmetöne sind harmoniefremde Töne, die zur nachfolgenden Harmonie gehören. Der Ton der nachfolgenden Harmonie wird hierbei stufenweise erreicht, gesprungene Vorausnahmen sind selten. Wie auch bei den anderen harmoniefremden Tönen kann die Vorausnahme sowohl ab- als auch aufwärts und in mehreren Stimmen erfolgen.\\
+	\textit{Zur Kennzeichnung von Vorausnahmen verwendet man} V¯ %TODO FIX
+	
+	\subsubsection{Nebennoten}
+	Nebennoten lassen sich in drei verschiedene Arten aufteilen: Abspringende, anspringende und freie Nebennoten. Die Richtungen der Stufen- bzw. Sprungbewegung sind hierbei wie bei allen \\
+	\begin{description}
+		\item[Abspringende Nebennoten:] Hierbei wird der akkordeigene Ton stufenweise verlassen und der nachfolgende Akkordton angesprungen.\\
+		\textit{Kurz: Stufe $\rightarrow$ Sprung}
+		\item[Anspringende Nebennoten:] Hier wird der akkordeigene Ton durch einen Sprung verlassen und der nachfolgende Akkordton stufenweise erreicht.\\
+		\textit{Kurz: Sprung $\rightarrow$ Stufe}
+		\item[Freie Nebennoten:] Freie Nebennoten verlassen den akkordeigenen Ton durch einen Sprung und erreicht den nachfolgenden Akkordton ebenfalls durch einen Sprung.
+	\end{description}
+	\textit{Zur Kennzeichnung von Nebennoten verwendet man in jedem Fall ein} "N".
+	
+	\section{Vorhalte}
+	
+	\subsection{Harmoniefremde Töne auf betonter Taktzeit}
+	In diesem Abschnitt geht es nur um Vorhalte. Vorhalte sind harmoniefremde Töne die auf betonter Taktzeit auftauchen und dann zu einem Akkordton auf unbetonter Taktzeit aufgelöst werden. Man unterscheidet zwischen vorbereiteten Vorhalten und unvorbereiteten Vorhalten.\\ Außerdem werden nachfolgend exemplarisch zwei verschiedene Vorhaltstöne und deren Vorhalte erläutert.\\
+	\textit{Zur Kennzeichnung von Vorausnahmen verwendet man} ¯V %TODO FIX
+	
+	\subsubsection{Vorbereiteter Vorhalt}
+	Bei einem vorbereiteten Vorhalt wird der Vorhaltston immer aus dem vorhergehenden Klang und in der gleichen Stimme übernommen. Typisch hierfür ist, dass oft ein Ton aus dem vorhergehenden Akkord in den nächsten Akkord gehalten (dies ist dann der Vorhaltston) und dann zu einem Harmonie-eigenen Ton aufgelöst wird.
+	
+	\subsubsection{Unvorbereiteter Vorhalt}
+	Bei einem unvorbereiteten Vorhalt tritt der Vorhaltston frei ein. Dies kann beispielsweise durch eine Melodie nötig sein.
+	
+	\subsubsection{Quartvorhalt}
+	Ein Quartvorhalt ist generell immer vorbereitet, hier ist nämlich der Vorhaltston die Quarte des Akkordes und wird dann zur Terz des Akkords aufgelöst. Bei der Dominante hat die Verzögerung einen verstärkenden Effekt auf die Schlusswirkung.
+	
+	\subsubsection{Nonvorhalt}
+	Bei einem Nonvorhalt ist der Vorhaltston die None des Akkords, die dann zur Oktave aufgelöst wird. Dies unterscheidet ihn vom Sekundvorhalt, da sonst ja Sekunde und None tonal identisch sind, beim Sekundvorhalt wird nämlich die Sekunde des Akkord aufwärts zu Terz aufgelöst.\\
+	
+	\subsection{Unterscheidung Vorhalt und harter Durchgang}
+	Hier sei noch kurz der \textbf{harte Durchgang} erwähnt, bei dem die Durchgangsnote auf der betonten Zählzeit auftaucht und dann nur im Kontext von einem unvorbereitetem Vorhalt zu unterscheiden ist.\\ Beispielsweise könnte man einen harten Durchgang daran erkennen, dass von Terz über die Sekunde zur Prim durchgeschritten wird; anstatt wie oben erwähnt die Sekunde zur Terz aufzulösen.\\
+	\textit{Ein harter Durchgang ist aber deutlich seltener als ein gewöhnlicher Durchgang.}
+	
+	\section{Quartsextakkorde}
+	Quartsextakkorde erhält man, wenn man die Grundform eines Akkordes in zwei Mal umkehrt. Folglich befindet sich dann die Quinte der Grundform im Bass. Die Bezeichnung lässt sich dardurch ableiten, da dann von der Quinte aus gesehen, dann eine Quarte (also der Grundton) und eine Sexte (die Terz) erklingen.\\
+	Wie auch beim Sextakkord ist es hier nicht relevant ob tatsächlich die Umkehrung strikt eingehalten wird, sondern nur, dass sich die Quinte des Akkords im Bass befindet.\\
+	\textit{Die Kennzeichnung Funktions- und Stufentheorie ist ebenfalls ähnlich der des Sextakkordes, also bspw.} \TQS\ \textit{bzw.} \dSQS{1}.	
+	\subsection{Anwendungsformen der Quartsextakkorde}
+	Die Anwendungsformen der Quartsextakkorde ähneln den harmoniefremden Tönen, auch hier lässt sich unterscheiden zwischen Quartsextakkorden auf unbetonter und betonter Zählzeit.\\
+	Im Gegensatz zu harmoniefremden Einzeltönen müssen aber solche Quartsextakkorde nicht mit den entsprechenden Zeichen (wie z. B. "D"{} oder "W") gekennzeichnet werden, hier genügt die Analyse in Funktions- und Stufentheorie.
+	
+	\subsubsection{Quartsextakkorde auf unbetonter Zählzeit}
+	\paragraph{Durchgangsquartsextakkord}
+	Beim Durchgangsquartsextakkord bewegt sich der Basston stufenförmig, quasi mit Durchgangsnoten, nur dass auf diesen Durchgangsnoten dann Quartsextakkorde gebildet werden. Beispiel hierfür wäre beispielsweise die Akkordfolge \T-\DQS-\TS, bzw. \dS{1}-\dSQS{5}-\dSS{1}.
+	
+	\paragraph{Wechselquartsextakkord}
+	Ein Wechselquartsextakkord entsteht, wenn sich mindestens zwei Stimmen auf unbetonter Zählzeit aus einem Klang lösen und dann wieder zu ihrem jeweiligen Ausgangston zurückkehren. Wichtig hierbei ist, dass der Basston während des gesamten Vorgangs der gleiche bleibt.\\
+	In der Funktionstheorie wird hierbei grundsätzlich von der Funktion, zwischen der gewechselt wird, ausgegangen und dann mit den Quartsext-Symbol aus der Stufentheorie gekennzeichnet.\\ Bspw.:
+	\begin{quote}
+		\T-\SQS-\T\ kann im Falle eines Wechselquartsextakkords als \T-\HH.T..6.4..-\T\ gesehen werden, obwohl zwischendrin eigentlich eine Subdominante erklingt.\\
+		Alternative Schreibweise: \HH.T..5\ \ \ 6\ \ \ 5.3\ \ \ 4\ \ \ 3.-----------.
+	\end{quote}
+
+	\paragraph{Vorausnahmequartssextakkord}
+	Ein Vorausnahmequartsextakkord funktioniert analog zur Vorausnahme, nur dass der gesamte Akkord vorzeitig als Quartsextakkord (also mit dem Basston vom vorherigen Akkord) auftritt, anstatt nur ein einziger Ton des folgenden Akkords.\\
+	\textit{Die Schreibweise ist ähnlich wie beim Wechselquartsextakkord, nur dass nicht auf den gleichen Akkord zurück gewechselt wird:} 
+	\HH.D..\ \ \ \ 6.\ \ \ \ 4.------.\ -\T\ \textit{bzw.} \HH.D..5\ \ \ 6.3\ \ \ 4.------.\ -\T
+	
+	\paragraph{Umkehrungsquartsextakkord}
+	Umkehrungsquartsextakkorde entstehen, wenn der Bass vom Grundton in die Quinte springt und der darüberliegende Akkord unverändert bleibt.\\
+	Bspw.: \T-\TS-\TQS*-\HH.T.8...., wobei * dann der Umkehrungsquartsextakkord ist.
+	
+	\subsubsection{Quartsextakkorde auf betonte Zählzeit}
+	\paragraph{Vorhaltsquartsextakkord}
+	Vorhaltsquartsextakkorde, auch kadenzierende Quartsextakkorde gennant, treten auf, wenn ein zu erwartender Akkord verzögert eintritt und stattdessen auf betonter Zählzeit ein quintverwandter Quartsextakkord auftritt. Wieder bleibt hier aber der Basston der gleiche.\\
+	\textit{In der Funktionstheorie schreibt man entweder} \HH.D..6\ \ \ 5.4 - 3..\ (-\T) \textit{oder} \HH.D..T - D...\ (-\T). \textit{In der Stufentheorie sind beide Varianten} (\dSQS{1}\ -\dS{5} \textit{oder} \HH.V..6\ \ \ 5.4 - 3..) \textit{möglich.}\\
+	Wie schon in den Beispielen gezeigt, ist der Quartsextakkord über dem Dominantgrundton von größter Bedeutung und wird deshalb auch oft bei Kadenzvorgängen verwendet, da die erwartete Dominante herausgezögert wird. Dies führt zu mehr Spannung, was die Schlusswirkung verstärkt, wenn diese Spannung aufgelöst wird. \textbf{Wichtig hierbei ist, dass es sich nicht um die Tonika mit Quinte im Bass handelt sondern eine Dominante mit Auflösung.}
+	
+	\section{Moll}
+	Moll-Akkorde werden in der Funktionstheorie mit Kleinbuchstaben (Bspw. \TSm), in der Stufentheorie mit kleinen römischen Ziffern (Bspw. \mSS{1}) dargestellt.
+	\subsection{Kadenz in Moll}
+	Mit der natürlichen Molltonleiter hat man das Problem, dass die Dominante nicht die starke Tendenz aufweist, sich zu Moll-Tonika aufzulösen. Ursache ist hierbei, dass anderes als bei Dur, die Dominante ein Mollakkord ist, somit die Terz des Akkords kein Leitton ist.\\
+	Dies löst man, indem man die siebte Tonleiterstufe erhöht, somit eine harmonische Mollkadenz erhält und deshalb auch die modifizierte Molltonleiter \textbf{harmonische Molltonleiter.}\\
+	Hier hat man nun wiederrum das Problem, dass zwischen der sechsten und siebten Tonleiterstufe eine übermäßige Sekunde entsteht, was im Vokalbereich früher als "{}unausführbar" galt. Die Lösung hierfür ist es, aus melodischen Gründen, die sechste Stufe zusätzlich zur siebten zu erhöhen.\\
+	Dadurch erhält man die melodisch Molltonleiter, die zwei Eigenschaften aufweist:
+	\begin{description}
+		\item[1.] Neben einem Durakkord als Dominante, besitzt die melodische Molltonleiter auch eine Dur-Subdominante.
+		\item[2.] Die Erhöhung \textbf{beider} Stufen gilt nur aufwärts, das heißt abwärts verhält sich die melodische Tonleiter wie die natürliche.
+	\end{description}
+
+	\subsection{Tonika in Moll}
+	Die Tonika in Moll kann am Ende eines Werkes auch in Dur auftreten. Diesen Akkord, genauergesagt die Terz in diesem Akkord, nennt man \textbf{pikardische Terz}. 
+	
+	\subsection{Dominante in Moll}
+	Die Dominante tritt normalerweise, in der Verbindung \D-\Tm\  auf. Selten ist aber auch eine Molldominante bei Abwärtsbewegungen zu finden, bspw. \DSem-\SSm.
+	
+	\subsection{Umkehrungen in Moll}
+	Bei Sextakkorden gilt analog zu Tonverdoppelungen in Dur (Abschnitt 3.1): Am besten Grundton verdoppeln, sonst Quinte und möglichst nicht die Terz.\\
+	Wie oben bereits gezeigt werden sowohl Sextakkorde als auch Quartsextakkorde ähnlich wie ihre Dur-Äquivalente gekennzeichnet, also Kleinbuchstabe mit Basston darunter.
+	\begin{description}
+		\item[Sextakkorde] \TSm, \SSm, \DSem
+		\item[Quartsextakkorde] \TQSm, \SQSm, \DQSm
+	\end{description}
+	\textit{Ein kadenzierender Quartsextakkord wird ebenso wie in Dur gekennzeichnet.} (Abschnitt 7.1.2)
+	
+	\section{Der Dominantseptakkord}
+	Fügt man einem Dominantdreiklang eine \textit{kleine} Septime (oder auch Mollseptime) hinzu, entsteht der Dominantseptakkord. Der Septimton ist hierbei gleichzeitig auch der Grundton der Subdominante.\\
+	Der Dominantseptakkord ist hat eine zusätzliche Klangschärfe, das bedeutet, dass generell aus jedem Durdreiklang eine Dominante wird. Dies nennt man \textbf{charakteristische Zusatzdissonanz}.\\
+	Die Benennung der Umkehrungen ist bei Septakkord verändert:
+	\begin{description}
+		\item[Grundstellung:] Die Grundstellung nennt man ganz simpel \textbf{Septakkord}.
+		\item[1. Umkehrung:] Die erste Umkehrung nennt man Quintsextakkord, da sich über der normalen Quinte des Akkordes eine Sexte bezogen auf den Basston befindet.
+		\item[2. Umkehrung:] Die zweite Umkehrung nennt man Terzquartakkord, dem selben Prinzip folgend, nur diesmal befindet sich das "{}außerordentliche" Intervall bereits nach der Terz, deshalb benennt man diese und dann die Quarte.
+		\item[3. Umkehrung:] Einen Septakkord in dritter Umkehrung nennt man Sekundakkord, hier folgt auf den Basston (die Septime) direkt die Sekunde (Oktave).
+	\end{description}
+	\textit{Gekennzeichnet wird ein Dominantseptakkord in der Funktionstheorie durch} \Dhoch{7}{} \textit{und jeweils dem Basston darunter, besonders ist hier der Fall des Sekundakkords, hier wird die eigentlich hochgestellte 7 in weggelassen und nur die 7 als Basston gekennzeichnet:} \Dhoch{}{7} \\
+	\textit{In der Stufentheorie kennzeichnet man entsprechend der Bezeichnungen der Umkehrungen, also:} \dShoch{5}{7}{}{}\ -\ \dShoch{5}{6}{5}{}\ -\ \dShoch{5}{4}{3}{}\ -\ \dShoch{5}{2}{}{}
+	
+	\subsection{Dominantseptakkorde mit Durdreiklang}
+	\subsubsection{Entstehung eines Dominantseptakkordes}
+	In der Praxis entsteht ein Dominantseptakkord entweder als Ergebnis einer Durchgangsbewegung oder als Ergebnis einer Vorhaltsbildung.\\
+	In einer Durchgangsbewegung erfolgt die Auflösung der Dominantseptime meist nach unten in die Terz. (Gleitton)
+	
+	\subsubsection{Auftreten eines Dominantseptakkordes}
+	Ein Dominantseptakkord kann innerhalb einer Durchgangsbewegung oder als Folge einer Vorhaltsbildung auftreten. Als Durchgangsbewegung wäre bespielsweise möglich, dass innerhalb einer Kadenz ein gewöhnlicher Dominantakkord auftritt, und eine Stimme die Oktave abwärts durch die Septime (zu diesem Zeitpunkt klingt dann der \Dhoch{7}{}) zur Sexte/Terz führt.
+	
+	\subsubsection{Unvorbereiteter Dominantseptakkord}
+	Der Dominantseptakkord trat bis zur Bachzeit nur vorbereitet auf, ab 1700 "{}emanzipiert", also auch unvorbereitet. 
+	
+	\subsection{Dominantseptakkorde und verminderter Dreiklang}
+	\subsubsection{Der verminderte Dreiklang}
+	Ein verminderter Dreiklang besteht aus zwei aufeinander geschichteten \textbf{kleinen} Terzen, daher ist das Rahmenintervall eine verminderte Quinte. Ein verminderter Dreiklang tritt in Dur oder harmonischem Moll jeweils auf der \dS{7}. Stufe auf und wird in die Tonika geführt.\\
+	\textit{Gekennzeichnet wird ein verminderter Akkord in der Stufentheorie mit} \vermStufe{7}\textit{, also kleine römische Ziffern und ein °.} 
+	
+	\subsubsection{Entstehung des verminderten Dreiklangs}
+	Ein verminderter Dreiklang wird als Dominantseptakkord ohne Grundton aufgefasst, man nennt dies auch \textbf{verkürzter Dominantseptakkord}.\\
+	Der verkürzte Dominantseptakkord tritt fast ausschließlich mit Quinte (bzw. Terz des verminderten Dreiklangs) im Bass auf.\\
+	\textit{Man schreibt in der Funktionstheorie für den verkürzten Dominantseptakkord} \Dhochv{7}{} \textit{und in der Stufentheorie wird dieser immer als verminderter Akkord der siebten Stufe in verschiedenen Umkehrungen.}
+	
+	\subsubsection{Harmonisierung der vierten Tonleiterstufe}
+	Dadurch, dass der Dominantseptakkord, und somit auch der verkürzte Dominantseptakkord, mit der Septime die vierte Tonleiterstufe beinhalten, lässt sich diese auch mit den genannten Akkorden harmonisieren, nicht nur durch die Subdominante.\\
+	Dies ist besonders von nütze, wenn man durch eine Harmonisierung mit der Subdominante die unerwünschte Akkordfolge \D-\S\ erhalten würde, eine Führung von Dominante zu Dominantseptakkord ist sehr günstig.
+	
+	\subsubsection{Stimmführungen mit Dominantseptakkorden}
+	Ein vollständiger Dominantseptakkord kann oft zu Quintparallelen führen, daher kann man sich durch verwenden des verkürzten Dominantseptakkordes behelfen.\\
+	Bei korrekter Auflösung hat die Tonika keine Quinte, da sich Grundton, Quinte und Septime zur Oktave auflösen und die Dominantterz sich zur Tonikaterz auflösen sollte. Deshalb ist es erlaubt in Alt oder Tenor die Terz abwärts oder die Septime aufwärts zur Tonikaquinte zu führen.\\
+	Desweiteren gelten folgende Stimmführungsregeln bei den Umkehrungen des Dominantseptakkords:
+	\begin{description}
+		\item[1. Umkehrung:] Der Basston der Dominante ist der Leitton und muss deshalb aufwärts in den Grundton und somit der gesamte Akkord in die Tonika in Grundstellung geführt werden.
+		\item[2. Umkehrung:] Die Quinte im Bass kann auf- und abwärts schreiten, somit ist als Folgeklang sowohl die Tonika in Grundstellung als auch als Sextakkord möglich.
+		\item[3. Umkehrung:] Die dritte Umkehrung wird in die Tonika in erster Umkehrung aufgelöst, da wie \textit{Abschnitt 9.1.1} erwähnt, die Septime abwärts zur Terz geführt wird.
+	\end{description}
+	Bei einem verkürzten Dominantseptakkord mit Quinte des ursprünglichen Akkordes im Bass muss die Quinte immer verdoppelt werden, da der Grundton fehlt und die restlichen Töne Leittöne sind.
+	
+	\section{Nonakkorde}
+	Nonakkorde entstehen durch das Schichten einer weiteren Terz, bzw. das hinzufügen der leitereigenen None, auf einen Dominantseptakkord. In Dur handelt es sich folglich um eine große None, in Moll um eine kleine None. Da die Septime immer dazugehört, kann diese in der Bezeichnung weggelassen werden.\\
+	\textit{Das Zeichen für den Dominantnonakkord in der Funktionstheorie ist} \Dhoch{9}{} \textit{in Dur und Moll für den Akkord jeweils mit leitereigenen None. Ein Dur-Dominantnonakkord mit kleiner None kennzeichnet man mit} \Dhoch{9-}{}, \textit{einen Moll-Dominantnonakkord mit großer Nonen mit} \Dhoch{9+}{}.\\
+	\textit{In der Stufentheorie bezeichnet man die Akkorde in eben genannter Reihenfolge mit} \dShoch{5}{}{}{}, \dShoch{5}{$\flat$9}{}{} \textit{und} \dShoch{5}{$\sharp$9}{}{}.
+	
+	\subsection{Eigenschaften des Nonakkords}
+	Dominantnonakkorde mit kleiner None haben einen hohen Dissonanzgrad und kamen deshalb selbst bis in die Romantik selten vor.\\
+	Der Dominantnonakkord hat sowohl in Dur als auch Moll zwei Töne mit der Subdominante gemeinsam und eignet sich deshalb auch um den sechsten Tonleiterton zu harmonisieren, besonders innerhalb eines Dominantklanges.\\
+	Da es sich bei einem Dominantakkord um einen Fünfklang handelt, lässt sich dieser nicht im vierstimmigen Satz vollständig darstellen. Deshalb lässt man meist die Quinte weg, da diese am "{}entbehrlich"{} ist.\\
+	Alternativ kann man den Nonakkord verkürzen, in der Funktionstheorie wird dieser dann als \Dhochv{9}{3}\ geschrieben, die Stufentheorie interpretiert den Klang als \textbf{halbverminderten Septakkord} der siebten Stufe \mShoch{7}{$\varnothing$7}{}{}. Halbvermindert heißt, dass auf ein verminderten Dreiklang (zwei kleine Terzen) eine große Terz geschichtet wird.
+	
+	\subsection{Satzregeln}
+	Häufig taucht Nonakkord verkürzt mit Terz im Bass auf, hier gilt es auf Quintparallelen beim Fortführen zu achten. Die Septime im Bass ist ebenfalls möglich. Jedoch sind Quinte und None nicht zu verwenden, da sich bei Quinte im Bass bei richtiger Stimmführung garantiert Parallelen bilden und die None im Bass zu einem Tonika-Quartsextakkord führt, der unbrauchbar ist.\\
+	Wie erwähnt, muss in vierstimmigen Sätzen ein Ton des Dominantnonakkords weggelassen werden. Im besten Fall die Quinte sonst die Septime; alle anderen Töne sind nicht möglich:
+	\begin{description}
+		\item[Grundton weglassen:] Der Dominantnonakkord ist verkürzt, somit nicht ein anderer Akkord.
+		\item[Terz weglassen:] Lässt man die Terz weg, verliert der Akkord sein Tongeschlecht.
+		\item[None weglassen:] Ziemlich offensichtlich, in diesem Fall ist es kein Nonakkord mehr.
+	\end{description}
+	
+	\subsection{Dominant-Ausdehnung}
+	Die Dominant-Ausdehnung (engl. dominan prolongation) beschreibt das Phänomen, wenn der Dominantgrundton im Bass zusammen mit anderen Funktion darüber erklingt. Ein Beispiel hierfür ist Vorhaltsquartsextakkord, wobei Dominant-Ausdehnung eher für mehr Akkorde steht.\\ 
+	\textit{In der Funktionstheorie schreibt man den Dominantgrundton in den Bass und die Funktionen darüber hochgestellt. In der Stufentheorie schreibt man die einzelnen Funktionen wie gewohnt und unter einer eckigen Klammer den Grundton der fünften Stufe.}
+	
+	\section{Der verminderte Septakkord}
+	Der verminderte Septakkord durch Dominantnonakkord in Moll, also mit kleiner Septime und kleiner None, den man verkürzt. Dadurch entsteht ein Rahmenintervall von einer verminderten Septime, außerdem ist die Quinte ebenfalls vermindert. Der verminderte Septakkord besteht also ausschließlich aus aufeinander geschichteten kleinen Terzen.\\
+	\textit{Der verminderte Dominantseptakkord kriegt die eigene Funktionsbezeichnung} \Dhoch{v}{}. \textit{In der Stufentheorie bezeichnet man den Akkord einfach als (voll-)verminderten Septakkord der siebten Stufe:} \mShoch{7}{$\circ$7}{}{}.
+	
+	\subsection{Auflösung eines verminderten Septakkords}
+	Auflösung vom verkürzten Septakkords zur Molltonika:
+	\begin{description}
+		\item[Terz] Da die Terz der Leitton ist, wird sie zum Grundton aufgelöst.
+		\item[Quinte] Die Quinte (quasi Septime des Tonika Akkords) wird ebenfalls zum Grundton aufgelöst.
+		\item[Septime] Die Septime (Tonika None) wird zur Terz aufgelöst.
+		\item[None] Die None (Tonika Quarte) wird aufgelöst zur Tonika Quinte.
+	\end{description}
+
+	\subsubsection{Auflösen bei Terz im Bass}
+	Ein Problem beim Auflösen des verminderten Septakkords mit Terz im Bass ist, dass die None im Sopran eine Fortführung schwierig gestaltet. Bei der Auflösung kommt es entweder zu einer verdeckten Quintparallele (vermindert-rein) oder zu einer verdeckten Oktave. Letztere Option ist günstiger, die Quintparallele kann man durch einen nachschlagenden Ton; die Töne der verminderten Quinte erklingen also nicht zusammen sondern möglichst in großem Abstand.
+	
+	\subsubsection{Auflösen bei Quinte im Bass}
+	Auch hier kann es beim Weiterführen der Quinten zu Quintparallelen kommen, deshlab löst man die Quinte zur Tonikaterz auf und erhält somit einen Tonikasextakkord.
+	
+	\subsubsection{Auflösen bei Septime im Bass}
+	Da der \Dhoch{v}{} zu gleichen Teilen aus der Dominante und der Mollsubdominante besteht, kann man für die Fortführung den Basston als Septime der Dominante oder als Grundton der Mollsubdominante sehen. Daraus ergibt sich folgende Aufteilung, wie die Septime aufgelöst werden soll:
+	\begin{description}
+		\item[Basston als Dominantseptime:] In diesem Fall führt man den Basston schrittweise zur Tonikaterz abwärts.
+		\item[Basston als Subdominantgrundton:] Als Subdominantgrundton springt die Septime im Bass plagal (siehe \textit{Abschnitt 1.3.2}) zum Grundton der Tonika. In diesem Fall kennzeichnet man den Basston im Funktionstheoriesymbol nicht mit \Dhoch{v}{7}\ sondern mit \Dhoch{v}{s}.
+	\end{description}
+
+	\subsubsection{Auflösen bei None im Bass}
+	Da die None im Bass zur Quinte der Tonika strebt, löst man diese Umkehrung zu einem \TQS\ auf. Im besten Fall in Funktion von einem Vorhaltsquartsextakkord, der dann über die Dominante zur Tonika in Grundstellung aufgelöst wird.
+	
+	\subsection{Besonderheit des verminderten Quartsextakkords}
+	Durch das Schichten von ausschließlich kleinen Terzen wiederholt sich der Akkord quasi nach 4 Terzschichtungen (enharmonisch verwechselt) und man nennt einen solchen Akkord "{}unendlichen Akkord".\\
+	Dies bedeutet es gibt insgesamt \textbf{nur drei akustisch verschiedene} \Dhoch{v}{}.\\
+	Deshalb lässt sich die Tonart erst nach der Auflösung eindeutig zuordnen.
+	
+	\section{Sixte ajoutée}
+	
+	\section{Entstehung des Sixte ajoutée}
+	Der Sixte ajoutée (von "l'accord de la sixte ajoutée") oder Subdominantakkord mit hinzugefügter \textbf{großer} Sexte, entsteht, wie der Name schon sagt, durch das Hinzufügen einer großen Sexte an einen Subdominantakkord in Moll oder Dur.\\
+	\textit{In der Funktionstheorie gibt es für den Sixte ajoutée das Symbol} \SA\ \textit{bzw.} \sA, \textit{in der Stufentheorie wird der Akkord in Dur als Septakkord auf der zweiten Stufe in erster Umkehrung (Quint-Sextakkord)} \mShoch{2}{6}{5}{}, \textit{und in Moll ebenfalls als Septakkord der ersten Umkehrung der zweiten Stufe, allerdings halbvermindert, gesehen} \mShoch{2}{\ \ 6}{$\circ$5}{}.\\
+	Hier ist wichtig zu erwähnen, dass der Sixte ajoutée (eigentlich) keine Umkehrungen hat, da sonst nicht mehr Subdominantgrundton im Bass ist, was die Subdominantqualität schwächt.\\
+	Der Unterschied zu einem Dominantseptakkord in Umkehrung lässt sich beispielsweise aus dem Kontext erkennen, aber auch wenn eine kleine Sexte oder verminderte Quinte vorliegt.
+	
+	\subsection{Bedeutung des Sixte ajoutée}
+	Der Sixte ajoutée hat einen gemeinsamen Ton mit der Dominante, was hilfreich für die Verbindung \SA-\D\ ist. Die hinzugefügte große Sexte hat außerdem eine typisierende Kraft, ähnlich wie die Septime bei der Dominante wird jeder Dur- oder Molldreiklang durch die hinzugefügte Sexte zur Subdominante.\\
+	Die große Sexte ist die charakteristische Zusatzdissonanz der Subdominante (nicht so stark wie bei Dominante).
+	
+	\subsection{Anwendung des Sixte ajoutée}
+	Der Sixte ajoutée wird in Kadenzen für eine steigernde Wirkung verwendet. So lässt sich zum Beispiel die Progression \TS-\D-\D-\T\ durch \TS-\SA-\D-\T\ ersetzen, was den Vorteil hat, dass sich zum einen nicht der gleiche Akkord zweimal hintereinander erklingt, der Basston stufenweise aufwärts geführt werden kann und die Kadenzwirkung gesteigert wird.\\
+	Mit dem Sixte ajoutée lässt sich also die zweite Tonleiterstufe harmonisieren, somit kann für mehr Abwechslung gesorgt werden. Außerdem lässt sich auch die Kombination aus erster und zweiter Tonleiterstufe mit dem \SA\ harmonisieren.\\ 
+	Die Kadenzwirkung ist sehr stark und deshalb sollte man diese Akkordfolge nur beim abschloss eines Teilabschnittes oder gar des ganzen Satzes verwenden.
+	
+	
+	
+\end{document}

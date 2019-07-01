@@ -1,0 +1,887 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.6.20)  1 JUL 2019 21:01
+entering extended mode
+**./HL-Zsf.tex
+(HL-Zsf.tex
+LaTeX2e <2018-12-01>
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\size10.clo"
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
+Package: babel 2019/06/03 3.32 The Babel package
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\switch.def"
+File: switch.def 2019/06/03 3.32 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Valentin\AppData\Roaming\MiKTeX\2.9\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/babel-german\ngerman.ldf"
+Language: ngerman 2018/12/08 v2.11 German support for babel (post-1996 orthogra
+phy)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/babel-german\ngermanb.ldf"
+Language: ngermanb 2018/12/08 v2.11 German support for babel (post-1996 orthogr
+aphy)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2019/06/03 3.32 Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
+\bbl@dirlevel=\count89
+)
+Package babel Info: Making " an active character on input line 121.
+)))
+(C:\Users\Valentin\AppData\Roaming\MiKTeX\2.9\tex/latex/ucs\ucs.sty
+Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
+
+(C:\Users\Valentin\AppData\Roaming\MiKTeX\2.9\tex/latex/ucs\uni-global.def
+File: uni-global.def 2013/05/13 UCS: Unicode global data
+)
+\uc@secondtry=\count90
+\uc@combtoks=\toks14
+\uc@combtoksb=\toks15
+\uc@temptokena=\toks16
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+
+(C:\Users\Valentin\AppData\Roaming\MiKTeX\2.9\tex/latex/ucs\utf8x.def
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\t1enc.def"
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen104
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen105
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks20
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks21
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks22
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\Valentin\AppData\Roaming\MiKTeX\2.9\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hyperref.sty"
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks24
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen113
+\Hy@linkcounter=\count103
+\Hy@pagecounter=\count104
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def"
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count105
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count106
+
+(C:\Users\Valentin\AppData\Roaming\MiKTeX\2.9\tex/latex/url\url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen114
+\Fld@menulength=\count107
+\Field@Width=\dimen115
+\Fld@charsize=\dimen116
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count108
+\c@Item=\count109
+\c@Hfootnote=\count110
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hpdftex.def"
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count111
+\c@bookmark@seq@number=\count112
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip46
+)
+(C:\Users\Valentin\AppData\Roaming\MiKTeX\2.9\tex/latex/musixtex\musixtex.sty
+(C:\Users\Valentin\AppData\Roaming\MiKTeX\2.9\tex/generic/musixtex\musixtex.tex
+MusiXTeX(c) 1.29 <2018-08-04>
+\n@i=\count113
+\n@ii=\count114
+\n@iii=\count115
+\n@iv=\count116
+\n@v=\count117
+\n@vi=\count118
+\n@vii=\count119
+\n@viii=\count120
+\count@=\count121
+\toks@box=\box29
+\w@rkbox=\box30
+\n@otebox=\box31
+\y@=\dimen117
+\y@i=\dimen118
+\y@ii=\dimen119
+\y@iii=\dimen120
+\y@iv=\dimen121
+\y@v=\dimen122
+\group@no=\count122
+\interinstrument=\dimen123
+\N@s=\count123
+\s@Y=\dimen124
+\lin@pos=\dimen125
+\meet@minus@n@iv=\count124
+\interbeam=\dimen126
+\b@amthick=\dimen127
+\Interligne=\dimen128
+\Internote=\dimen129
+\ch@box=\box32
+\musicsize=\count125
+\qd@skip=\dimen130
+\qn@width=\dimen131
+\wn@width=\dimen132
+\txt@ff=\skip47
+\s@indent=\skip48
+\big@spc=\skip49
+\lthick=\dimen133
+\afterruleskip=\skip50
+\staffbotmarg=\dimen134
+\stafftopmarg=\dimen135
+\line@width=\dimen136
+\interportee=\dimen137
+\noport@@=\count126
+\noinstrum@nt=\count127
+\altportee=\dimen138
+\systemheight=\dimen139
+\altplancher=\dimen140
+\instrum@in@group=\skip51
+\boxitsep=\skip52
+\barsinpi@c@=\count128
+\barno=\count129
+\startbarno=\count130
+\sign@skip=\dimen141
+\maxsign@skip=\dimen142
+\x@skip=\dimen143
+\n@skip=\dimen144
+\beforeruleskip=\skip53
+\widthtyp@=\count131
+\lastbarno=\count132
+\cut@v=\skip54
+\init@volta@pos=\skip55
+\volta@startcor=\skip56
+\volta@endcor=\skip57
+\writ@volta@box=\box33
+\barsinlin@=\count133
+\maxbarsinlin@=\count134
+\lastbarpos=\skip58
+\ut@ref=\count135
+\meterskip=\skip59
+\t@c=\toks25
+\clef@skip=\skip60
+\noteskip=\dimen145
+\transpose=\count136
+\normaltranspose=\count137
+\locx@skip=\dimen146
+\elemskip=\dimen147
+\@l@mskip=\dimen148
+\inh@alt=\count138
+\st@bot=\dimen149
+\st@top=\dimen150
+\stem@skip=\dimen151
+\s@lope=\dimen152
+\y@vi=\dimen153
+\lift@rest=\dimen154
+\accshift=\skip61
+\@icresc=\skip62
+\pdl@pos=\dimen155
+\bigwedgebox=\box34
+\@itrillei=\skip63
+\@itrilleii=\skip64
+\@itrilleiii=\skip65
+\@itrilleiv=\skip66
+\@itrillev=\skip67
+\@itrillevi=\skip68
+\tr@number=\count139
+\tr@nspose=\count140
+\o@swz=\toks26
+\o@number=\count141
+\y@vii=\dimen156
+\y@viii=\dimen157
+\y@ix=\dimen158
+\tuptxtb@x=\box35
+\notes@open=\count142
+\k@ii=\skip69
+\i@ni=\dimen159
+\b@xi=\dimen160
+\b@zi=\dimen161
+\c@xi=\dimen162
+\c@zi=\skip70
+\d@xi=\dimen163
+\d@zi=\skip71
+\e@xi=\dimen164
+\e@zi=\skip72
+\b@pi=\count143
+\b@ni=\count144
+\n@pi=\count145
+\a@si=\count146
+\o@si=\count147
+\a@ci=\toks27
+\o@ci=\toks28
+\m@ti=\toks29
+\k@iii=\skip73
+\i@nii=\dimen165
+\b@xii=\dimen166
+\b@zii=\dimen167
+\c@xii=\dimen168
+\c@zii=\skip74
+\d@xii=\dimen169
+\d@zii=\skip75
+\e@xii=\dimen170
+\e@zii=\skip76
+\b@pii=\count148
+\b@nii=\count149
+\n@pii=\count150
+\a@sii=\count151
+\o@sii=\count152
+\a@cii=\toks30
+\o@cii=\toks31
+\m@tii=\toks32
+\k@iiii=\skip77
+\i@niii=\dimen171
+\b@xiii=\dimen172
+\b@ziii=\dimen173
+\c@xiii=\dimen174
+\c@ziii=\skip78
+\d@xiii=\dimen175
+\d@ziii=\skip79
+\e@xiii=\dimen176
+\e@ziii=\skip80
+\b@piii=\count153
+\b@niii=\count154
+\n@piii=\count155
+\a@siii=\count156
+\o@siii=\count157
+\a@ciii=\toks33
+\o@ciii=\toks34
+\m@tiii=\toks35
+\k@iiv=\skip81
+\i@niv=\dimen177
+\b@xiv=\dimen178
+\b@ziv=\dimen179
+\c@xiv=\dimen180
+\c@ziv=\skip82
+\d@xiv=\dimen181
+\d@ziv=\skip83
+\e@xiv=\dimen182
+\e@ziv=\skip84
+\b@piv=\count158
+\b@niv=\count159
+\n@piv=\count160
+\a@siv=\count161
+\o@siv=\count162
+\a@civ=\toks36
+\o@civ=\toks37
+\m@tiv=\toks38
+\k@iv=\skip85
+\i@nv=\dimen183
+\b@xv=\dimen184
+\b@zv=\dimen185
+\c@xv=\dimen186
+\c@zv=\skip86
+\d@xv=\dimen187
+\d@zv=\skip87
+\e@xv=\dimen188
+\e@zv=\skip88
+\b@pv=\count163
+\b@nv=\count164
+\n@pv=\count165
+\a@sv=\count166
+\o@sv=\count167
+\a@cv=\toks39
+\o@cv=\toks40
+\m@tv=\toks41
+\k@ivi=\skip89
+\i@nvi=\dimen189
+\b@xvi=\dimen190
+\b@zvi=\dimen191
+\c@xvi=\dimen192
+\c@zvi=\skip90
+\d@xvi=\dimen193
+\d@zvi=\skip91
+\e@xvi=\dimen194
+\e@zvi=\skip92
+\b@pvi=\count168
+\b@nvi=\count169
+\n@pvi=\count170
+\a@svi=\count171
+\o@svi=\count172
+\a@cvi=\toks42
+\o@cvi=\toks43
+\m@tvi=\toks44
+maxinstruments=6
+\f@xi=\dimen195
+\f@zi=\skip93
+\f@xii=\dimen196
+\f@zii=\skip94
+\f@xiii=\dimen197
+\f@ziii=\skip95
+\f@xiv=\dimen198
+\f@ziv=\skip96
+\f@xv=\dimen199
+\f@zv=\skip97
+\f@xvi=\dimen256
+\f@zvi=\skip98
+ max128beams=6
+\g@bi=\skip99
+\g@hi=\skip100
+\g@bii=\skip101
+\g@hii=\skip102
+\g@biii=\skip103
+\g@hiii=\skip104
+ maxgroups=3
+\s@xi=\dimen257
+\s@si=\toks45
+\s@Yi=\dimen258
+\s@ai=\skip105
+\s@yi=\count173
+\s@Ni=\count174
+\s@zi=\count175
+\s@di=\toks46
+\s@xii=\dimen259
+\s@sii=\toks47
+\s@Yii=\dimen260
+\s@aii=\skip106
+\s@yii=\count176
+\s@Nii=\count177
+\s@zii=\count178
+\s@dii=\toks48
+\s@xiii=\dimen261
+\s@siii=\toks49
+\s@Yiii=\dimen262
+\s@aiii=\skip107
+\s@yiii=\count179
+\s@Niii=\count180
+\s@ziii=\count181
+\s@diii=\toks50
+\s@xiv=\dimen263
+\s@siv=\toks51
+\s@Yiv=\dimen264
+\s@aiv=\skip108
+\s@yiv=\count182
+\s@Niv=\count183
+\s@ziv=\count184
+\s@div=\toks52
+\s@xv=\dimen265
+\s@sv=\toks53
+\s@Yv=\dimen266
+\s@av=\skip109
+\s@yv=\count185
+\s@Nv=\count186
+\s@zv=\count187
+\s@dv=\toks54
+\s@xvi=\dimen267
+\s@svi=\toks55
+\s@Yvi=\dimen268
+\s@avi=\skip110
+\s@yvi=\count188
+\s@Nvi=\count189
+\s@zvi=\count190
+\s@dvi=\toks56
+ maxslurs=6
+\tr@xi=\skip111
+\tr@swi=\toks57
+\tr@yi=\skip112
+\tr@xii=\skip113
+\tr@swii=\toks58
+\tr@yii=\skip114
+\tr@xiii=\skip115
+\tr@swiii=\toks59
+\tr@yiii=\skip116
+\tr@xiv=\skip117
+\tr@swiv=\toks60
+\tr@yiv=\skip118
+\tr@xv=\skip119
+\tr@swv=\toks61
+\tr@yv=\skip120
+\tr@xvi=\skip121
+\tr@swvi=\toks62
+\tr@yvi=\skip122
+ maxtrills=6
+\o@xi=\skip123
+\o@yi=\skip124
+\o@swi=\toks63
+\o@xii=\skip125
+\o@yii=\skip126
+\o@swii=\toks64
+\o@xiii=\skip127
+\o@yiii=\skip128
+\o@swiii=\toks65
+\o@xiv=\skip129
+\o@yiv=\skip130
+\o@swiv=\toks66
+\o@xv=\skip131
+\o@yv=\skip132
+\o@swv=\toks67
+\o@xvi=\skip133
+\o@yvi=\skip134
+\o@swvi=\toks68
+
+maxoctlines=6
+\outmux=\write3
+\mulooseness=\count191
+\linegoal=\count192
+\l@eftrightbox=\box36
+\stringraise=\count193
+\inmux=\read1
+)
+(C:\Users\Valentin\AppData\Roaming\MiKTeX\2.9\tex/latex/musixtex\musixltx.tex
+MusiXLaTeX T.125 <8 April 2017>
+)) (C:\Users\Valentin\AppData\Roaming\MiKTeX\2.9\tex/latex/harmony\harmony.sty
+Package: harmony 2007/05/04
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\tmpdima=\dimen269
+\tmpdimb=\dimen270
+\tmpdimc=\dimen271
+\tmpdimd=\dimen272
+\tmpdime=\dimen273
+\nbxa=\box37
+\nbxb=\box38
+\nbxc=\box39
+\nbxd=\box40
+\nbxe=\box41
+\nbxf=\box42
+\nbxg=\box43
+\nbxh=\box44
+\nbxi=\box45
+)
+\@indexfile=\write4
+\openout4 = `HL-Zsf.idx'.
+
+
+Writing index file HL-Zsf.idx
+(HL-Zsf.aux)
+\openout1 = `HL-Zsf.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+
+(C:\Users\Valentin\AppData\Roaming\MiKTeX\2.9\tex/latex/ucs\ucsencs.def
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+(C:\Users\Valentin\AppData\Roaming\MiKTeX\2.9\tex/context/base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count194
+\scratchdimen=\dimen274
+\scratchbox=\box46
+\nofMPsegments=\count195
+\nofMParguments=\count196
+\everyMPshowfont=\toks69
+\MPscratchCnt=\count197
+\MPscratchDim=\dimen275
+\MPnumerator=\count198
+\makeMPintoPDFobject=\count199
+\everyMPtoPDFconversion=\toks70
+)
+\AtBeginShipoutBox=\box47
+Package hyperref Info: Link coloring OFF on input line 55.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\gettitlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count266
+)
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
+
+(HL-Zsf.out) (HL-Zsf.out)
+\@outlinefile=\write5
+\openout5 = `HL-Zsf.out'.
+
+\openout3 = `HL-Zsf.mx1'.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 57.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 57.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(C:\Users\Valentin\AppData\Roaming\MiKTeX\2.9\tex/latex/ucs\uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+) [1
+
+{C:/Users/Valentin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (HL-Zsf.
+toc
+[2])
+\tf@toc=\write6
+\openout6 = `HL-Zsf.toc'.
+
+ [3] [4]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 72.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 72.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 72.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\t1cmss.fd"
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.92 	
+       [1]pdfTeX warning (ext4): destination with the same identifier (name{pag
+e.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.125 		\item[Terzlage:]
+                         Terz des Akkords im Sopran [2]pdfTeX warning (ext4): d
+estination with the same identifier (name{page.3}) has been already used, dupli
+cate ignored
+<to be read again> 
+                   \relax 
+l.153 		\item[Verdeckte Parallelen:]
+                                     Verdeckte Parallelen sollten Ã¤hnlich w...
+[3]
+Overfull \hbox (6.13647pt too wide) in paragraph at lines 175--178
+\T1/cmr/m/n/10 Daher soll-te man mög-lichst Stu-fen-be-we-gun-gen (Se-kund-schr
+it-te) und we-nig Sprün-
+
+\hbox(7.49817+2.49939)x345.0, glue set - 1.0 []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.179 	\subsection
+                  {Stimmkreuzung} [4] [5]
+Overfull \hbox (17.4115pt too wide) in paragraph at lines 203--206
+\T1/cmr/m/n/10 Man un-ter-schei-det hier-bei zwi-schen har-mo-nie-frem-den Tö-n
+en auf leich-ter/unbetonter
+
+\hbox(7.49817+2.49939)x345.0, glue set - 1.0 []
+
+
+Overfull \hbox (0.52673pt too wide) in paragraph at lines 211--213
+\T1/cmr/m/n/10 Durchgangsnoten ver-bin-den har-mo-nie-ei-ge-ne Tö-ne auf un-be-
+ton-ter Takt-zeit durch
+
+\hbox(6.8872+1.94397)x345.0, glue set - 1.0 []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+
+
+\hbox(0.0+0.0)x345.0 []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+
+
+\hbox(0.0+0.0)x345.0 []
+
+[7]
+Overfull \hbox (4.52853pt too wide) in paragraph at lines 265--266
+ []\T1/cmr/bx/n/10 Durchgangsquartsextakkord[] \T1/cmr/m/n/10 Beim Durch-gangs-
+quart-sext-ak-kord be-wegt sich
+
+\hbox(6.9011+1.94397)x345.0, glue set - 1.0 []
+
+
+Overfull \hbox (2.58401pt too wide) in paragraph at lines 265--266
+\T1/cmr/m/n/10 der Bass-ton stu-fen-för-mig, qua-si mit Durch-gangs-no-ten, nur
+ dass auf die-sen Durch-
+
+\hbox(6.8872+1.94397)x345.0, glue set - 1.0 []
+
+[8]
+Overfull \hbox (3.24551pt too wide) in paragraph at lines 276--279
+ []\T1/cmr/bx/n/10 Vorausnahmequartssextakkord[] \T1/cmr/m/n/10 Ein Vor-aus-nah
+-me-quart-sext-ak-kord funk-tio-
+
+\hbox(6.9011+1.94397)x345.0, glue set - 1.0 []
+
+
+Overfull \hbox (11.80565pt too wide) in paragraph at lines 281--283
+ []\T1/cmr/bx/n/10 Umkehrungsquartsextakkord[] \T1/cmr/m/n/10 Um-keh-rungs-quar
+t-sext-ak-kor-de ent-ste-hen, wenn
+
+\hbox(6.9011+1.94397)x345.0, glue set - 1.0 []
+
+
+Overfull \hbox (21.40053pt too wide) in paragraph at lines 286--289
+ []\T1/cmr/bx/n/10 Vorhaltsquartsextakkord[] \T1/cmr/m/n/10 Vor-halts-quart-sex
+t-ak-kor-de, auch ka-den-zie-ren-de Quart-
+
+\hbox(6.9011+1.94397)x345.0, glue set - 1.0 []
+
+[9] [10] [11]
+Overfull \hbox (22.50482pt too wide) in paragraph at lines 367--370
+\T1/cmr/m/it/10 und Moll für den Ak-kord je-weils mit lei-te-rei-ge-nen No-ne. 
+Ein Dur-Dominantnonakkord
+
+\hbox(6.8872+1.94397)x345.0, glue set - 1.0 []
+
+[12] [13]
+Overfull \hbox (10.2625pt too wide) in paragraph at lines 391--393
+[][][]\T1/cmr/m/n/10 . \T1/cmr/m/it/10 In der Stuf-en-theo-rie be-zeich-net man
+ den Ak-kord ein-fach als (voll-)verminderten
+
+\hbox(7.52763+2.49939)x345.0, glue set - 1.0 []
+
+
+Overfull \hbox (4.91438pt too wide) in paragraph at lines 412--413
+[]\T1/cmr/m/n/10 In die-sem Fall führt man den Bass-ton schritt-
+
+\hbox(6.9011+1.94397)x319.99997, glue set - 1.0 []
+
+[14] [15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 443.
+ [16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 443.
+ (HL-Zsf.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 443.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 443.
+
+
+Package rerunfilecheck Warning: File `HL-Zsf.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `HL-Zsf.out':
+(rerunfilecheck)             Before: E0D9C52F2C18DC5096BEED3EF366B291;6002
+(rerunfilecheck)             After:  4A85AFEDECAC869BB56C2F6A89A9D006;6002.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 443.
+ ) 
+Here is how much of TeX's memory you used:
+ 9918 strings out of 492895
+ 124809 string characters out of 3133470
+ 242945 words of memory out of 3000000
+ 13529 multiletter control sequences out of 15000+200000
+ 90587 words of font info for 197 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 29i,8n,37p,498b,672s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Valentin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi6
+00\ecsl1200.pk> <C:\Users\Valentin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkn
+appen/ec/dpi600\ecss0700.pk> <C:\Users\Valentin\AppData\Local\MiKTeX\2.9\fonts/
+pk/ljfour/jknappen/ec/dpi600\ecss0500.pk> <C:\Users\Valentin\AppData\Local\MiKT
+eX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\Valentin\AppDa
+ta\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1000.pk> <C:\Users\V
+alentin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk
+> <C:\Users\Valentin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecbx1000.pk> <C:\Users\Valentin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkna
+ppen/ec/dpi600\ecbx1200.pk> <C:\Users\Valentin\AppData\Local\MiKTeX\2.9\fonts/p
+k/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Valentin\AppData\Local\MiKTe
+X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Valentin\AppDat
+a\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Va
+lentin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/symbols/msbm7.pfb>
+Output written on HL-Zsf.pdf (20 pages, 282488 bytes).
+PDF statistics:
+ 994 PDF objects out of 1000 (max. 8388607)
+ 102 named destinations out of 1000 (max. 500000)
+ 633 words of extra memory for PDF output out of 10000 (max. 10000000)
+
