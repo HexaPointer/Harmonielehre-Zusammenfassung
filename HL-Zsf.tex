@@ -9,44 +9,48 @@
 \usepackage{musixtex}
 \usepackage{harmony}
 
-\newcommand{\dS}[1]{\HH.\uppercase\expandafter{\romannumeral #1\relax}.....}
-\newcommand{\dSS}[1]{\HH.\uppercase\expandafter{\romannumeral #1\relax}..6...}
-\newcommand{\dSQS}[1]{\HH.\uppercase\expandafter{\romannumeral #1\relax}..6.4..}
-\newcommand{\dShoch}[4]{\HH.\uppercase\expandafter{\romannumeral #1\relax}..#2.#3.#4.}
-\newcommand{\mS}[1]{\textbf{\romannumeral #1}}
-\newcommand{\mSS}[1]{\HH.\romannumeral #1..6...}
-\newcommand{\mSQS}[1]{\HH.\romannumeral #1..6.4..}
-\newcommand{\mShoch}[4]{\HH.\romannumeral #1..#2.#3.#4.}
-\newcommand{\vermStufe}[1]{\textbf{\romannumeral #1\textdegree}}
+\newcommand{\dS}[1]{\HH.\uppercase\expandafter{\romannumeral #1\relax}.....} %dur-Stufentheorie
+\newcommand{\dSS}[1]{\HH.\uppercase\expandafter{\romannumeral #1\relax}..6...} %dur-ST-Sextakkord
+\newcommand{\dSQS}[1]{\HH.\uppercase\expandafter{\romannumeral #1\relax}..6.4..} %dur-ST-Quartsextakkord
+\newcommand{\dShoch}[4]{\HH.\uppercase\expandafter{\romannumeral #1\relax}..#2.#3.#4.} %dur-ST-beliebige Hochzahlen
+\newcommand{\mS}[1]{\textbf{\romannumeral #1}} %moll-ST
+\newcommand{\mSS}[1]{\HH.\romannumeral #1..6...} %moll-ST-Sextakkord
+\newcommand{\mSQS}[1]{\HH.\romannumeral #1..6.4..} %moll-ST-Quartsextakkord
+\newcommand{\mShoch}[4]{\HH.\romannumeral #1..#2.#3.#4.} %moll-ST-beliebige Hochzahlen
+\newcommand{\vermStufe}[1]{\textbf{\romannumeral #1\textdegree}} %vermindert-ST
 
 %DUR FUNKTIONSTHEORIE
 \newcommand{\T}{\HH.T.....}
 \newcommand{\TS}{\HH.T.3....}
 \newcommand{\TQS}{\HH.T.5....}
+
 \renewcommand{\S}{\HH.S.....}
 \renewcommand{\SS}{\HH.S.3....}
 \newcommand{\SQS}{\HH.S.5....}
-\newcommand{\SA}{\HH.S..6.5..}
+\newcommand{\SA}{\HH.S..6.5..} %Sixte ajoutée Dur
+\newcommand{\Shoch}[2]{\HH.S.#2.#1...}
+
 \newcommand{\D}{\HH.D.....}
 \newcommand{\DSe}{\HH.D.3....}
 \newcommand{\DQS}{\HH.D.5....}
 \newcommand{\Dhoch}[2]{\HH.D.#2.#1...}
-\newcommand{\Dhochv}[2]{\HH.\Ohne{D}.#2.#1...}
+\newcommand{\Dhochv}[2]{\HH.\Ohne{D}.#2.#1...} %Verkürzter Dominantakkord
 
 
 %MOLL FUNKTIONSTHEORIE
 \newcommand{\Tm}{\HH.t.....}
 \newcommand{\TSm}{\HH.t.3....}
 \newcommand{\TQSm}{\HH.t.5....}
+
 \newcommand{\Sm}{\HH.s.....}
 \newcommand{\SSm}{\HH.s.3....}
 \newcommand{\SQSm}{\HH.s.5....}
-\newcommand{\sA}{\HH.s..6.5..}
+\newcommand{\SAm}{\HH.s..6.5..} %Sixte ajoutée Moll
+\newcommand{\Shochm}[2]{\HH.s.#2.#1...}
+
 \newcommand{\Dm}{\HH.d.....}
 \newcommand{\DSem}{\HH.d.3....}
 \newcommand{\DQSm}{\HH.d.5....}
-
-\newcommand{\takt}[2]{\ensuremath{\substack{\mathbf{#1}\\ \mathbf{#2}}}}
 
 \title{Zusammenfassungen der Vorlesungen aus Harmonielehre}
 \author{Valenin Möller}
@@ -137,7 +141,7 @@
 	\end{quote}
 
 	\subsubsection{Akzentparallelen}
-	Bei Akzentparallelen geschieht die Parallelbewegung nicht zwingend in direkt aufeinanderfolgenden Tönen bzw. Akkorden, sondern auf betonten Zählzeiten; Im Falle vom \takt{4}{4}-Takt bspw. wäre eine Parallelbewegung zwischen Schlag \textit{1} und \textit{3} eine Akzentparallele.
+	Bei Akzentparallelen geschieht die Parallelbewegung nicht zwingend in direkt aufeinanderfolgenden Tönen bzw. Akkorden, sondern auf betonten Zählzeiten; Im Falle vom $\substack{\mathbf{4}\\ \mathbf{4}}$ -Takt bspw. wäre eine Parallelbewegung zwischen Schlag \textit{1} und \textit{3} eine Akzentparallele.
 	
 	\subsubsection{Nachschlagende Parallelen}
 	Eine nachschlagende Parallele ist eine Parallelbewegung, bei die Töne die parallel geführt sind rhythmisch versetzt sind und somit nicht wie bei der offenen Parallele gleichzeitig erklingen.
@@ -423,9 +427,9 @@
 	
 	\section{Sixte ajoutée}
 	
-	\section{Entstehung des Sixte ajoutée}
+	\subsection{Entstehung des Sixte ajoutée}
 	Der Sixte ajoutée (von "l'accord de la sixte ajoutée") oder Subdominantakkord mit hinzugefügter \textbf{großer} Sexte, entsteht, wie der Name schon sagt, durch das Hinzufügen einer großen Sexte an einen Subdominantakkord in Moll oder Dur.\\
-	\textit{In der Funktionstheorie gibt es für den Sixte ajoutée das Symbol} \SA\ \textit{bzw.} \sA, \textit{in der Stufentheorie wird der Akkord in Dur als Septakkord auf der zweiten Stufe in erster Umkehrung (Quint-Sextakkord)} \mShoch{2}{6}{5}{}, \textit{und in Moll ebenfalls als Septakkord der ersten Umkehrung der zweiten Stufe, allerdings halbvermindert, gesehen} \mShoch{2}{\ \ 6}{$\circ$5}{}.\\
+	\textit{In der Funktionstheorie gibt es für den Sixte ajoutée das Symbol} \SA\ \textit{bzw.} \SAm, \textit{in der Stufentheorie wird der Akkord in Dur als Septakkord auf der zweiten Stufe in erster Umkehrung (Quint-Sextakkord)} \mShoch{2}{6}{5}{}, \textit{und in Moll ebenfalls als Septakkord der ersten Umkehrung der zweiten Stufe, allerdings halbvermindert, gesehen} \mShoch{2}{\ \ 6}{$\circ$5}{}.\\
 	Hier ist wichtig zu erwähnen, dass der Sixte ajoutée (eigentlich) keine Umkehrungen hat, da sonst nicht mehr Subdominantgrundton im Bass ist, was die Subdominantqualität schwächt.\\
 	Der Unterschied zu einem Dominantseptakkord in Umkehrung lässt sich beispielsweise aus dem Kontext erkennen, aber auch wenn eine kleine Sexte oder verminderte Quinte vorliegt.
 	
@@ -438,6 +442,16 @@
 	Mit dem Sixte ajoutée lässt sich also die zweite Tonleiterstufe harmonisieren, somit kann für mehr Abwechslung gesorgt werden. Außerdem lässt sich auch die Kombination aus erster und zweiter Tonleiterstufe mit dem \SA\ harmonisieren.\\ 
 	Die Kadenzwirkung ist sehr stark und deshalb sollte man diese Akkordfolge nur beim abschloss eines Teilabschnittes oder gar des ganzen Satzes verwenden.
 	
+	\section{Subdominantische Sextakkorde}
+	Ähnlich wie beim Sixte ajoutée wird hier auch die große Sexte des Subdominantgrundtons verwendet, allerdings ersetzt diese die Quinte der Subdominante. Es handelt sich hierbei aber nicht um ein Sixte ajoutée ohne Quinte, da der subdominantische Sextakkord ein älterer Klang ist als \SA.\\
+	\textbf{Der subdominantische Sextakkord ist nicht zu verwechseln mit dem Sextakkord der Subdominante.}\\
+	Hier gibt es ebenfalls keine verwendbaren Akkordumkehrungen, einfach umgekehrt erhält man einen selten verwendeten Subdominantquartsextakkord, bei erneuter Umkehrung entsteht die Subdominantparallele (\textit{siehe Abschnit}) %TODO: ergänzen
+	\textit{In der Funktionstheorie kennzeichnet man den subdominantischen Sextakkord mit} \Shoch{6}{}\ \textit{bzw.} \Shochm{6}{}. \textit{Die Stufentheorie sieht hier einen Moll- bzw. verminderten Akkord der zweiten Stufe als Sextakkord:} \mShoch{2}{6}{}{}\ \textit{oder} \mShoch{2}{$\circ$6}{}{}.
 	
-	
+	\subsection{Anwendung des subdominantischen Sextakkordes}
+	Aus Sicht der Stufentehorie handelt es sich ja hierbei um einen Sextakkord der zweiten Stufe, dennoch wird hier entgegen der Satzregeln zu Verdopplung (\textit{Abschnitt 3.1}) gelehrt, die Terz zu verdoppeln, da die Terz ja in diesem Fall der Subdominantgrundton ist, den es zu verdoppeln gilt.\\
+	Erscheint die Akkordfolge \Shoch{6-5}{}\ lässt sich dies in der Stufentheorie als Folge von 
+	\mShoch{2}{6}{}{}-\dS{4} oder \dShoch{4}{6-5}{}{} interpretieren.\\
+	Die umgekehrte Akkordfolge \Shoch{5-6}{}\ hat eine steigernde Wirkung aus dem Subdominantklang.\\
+	Ähnlich wie den Sixte ajoutée verwendet man den subdominantischen Sextakkord zur gesteigerten Kadenzwirkung und Harmonisierung der zweiten Tonleiterstufe: Wenn die Sexte in die Terz der Dominante springt (den Leitton), verstärkt dies die Kadenz. Die entsprechende Akkordfolge ist dann: \Shoch{6}{}-\D-\T
 \end{document}
