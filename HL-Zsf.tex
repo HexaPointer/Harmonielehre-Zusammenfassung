@@ -19,22 +19,42 @@
 \newcommand{\mShoch}[4]{\HH.\romannumeral #1..#2.#3.#4.} %moll-ST-beliebige Hochzahlen
 \newcommand{\vermStufe}[1]{\textbf{\romannumeral #1\textdegree}} %vermindert-ST
 
+\newcommand{\bel}[5]{\HH.#1.#5.#2.#3.#4.}
+
 %DUR FUNKTIONSTHEORIE
 \newcommand{\T}{\HH.T.....}
 \newcommand{\TS}{\HH.T.3....}
 \newcommand{\TQS}{\HH.T.5....}
+\newcommand{\Tp}{\HH.Tp.....}
+\newcommand{\TSp}{\HH.Tp.3....}
+\newcommand{\TQSp}{\HH.Tp.5....}
+\newcommand{\Tg}{\HH.Tg.....}
+\newcommand{\TSg}{\HH.Tg.3....}
+\newcommand{\TQSg}{\HH.Tg.5....}
 
 \renewcommand{\S}{\HH.S.....}
 \renewcommand{\SS}{\HH.S.3....}
 \newcommand{\SQS}{\HH.S.5....}
 \newcommand{\SA}{\HH.S..6.5..} %Sixte ajoutée Dur
 \newcommand{\Shoch}[2]{\HH.S.#2.#1...}
+\newcommand{\Sp}{\HH.Sp.....}
+\newcommand{\SSp}{\HH.Sp.3....}
+\newcommand{\SQSp}{\HH.Sp.5....}
+\newcommand{\Sg}{\HH.Sg.....}
+\newcommand{\SSg}{\HH.Sg.3....}
+\newcommand{\SQSg}{\HH.Sg.5....}
 
 \newcommand{\D}{\HH.D.....}
 \newcommand{\DSe}{\HH.D.3....}
 \newcommand{\DQS}{\HH.D.5....}
 \newcommand{\Dhoch}[2]{\HH.D.#2.#1...}
 \newcommand{\Dhochv}[2]{\HH.\Ohne{D}.#2.#1...} %Verkürzter Dominantakkord
+\newcommand{\Dp}{\HH.Dp.....}
+\newcommand{\DSp}{\HH.Dp.3....}
+\newcommand{\DQSp}{\HH.Dp.5....}
+\newcommand{\Dg}{\HH.Dg.....}
+\newcommand{\DSg}{\HH.Dg.3....}
+\newcommand{\DQSg}{\HH.Dg.5....}
 
 
 %MOLL FUNKTIONSTHEORIE
@@ -79,7 +99,6 @@
 		\item Bei der siebten Stufe (\vermStufe{7}) handelt es sich um einen verminderten Dreiklang, bestehend aus zwei übereinander geschichteten kleinen Terzen.
 	\end{itemize}
 	\textit{Hinweis: Ab hier werden die Dur-Hauptdreiklänge größtenteils Funktionstheorie und in gekürzter Form} (Tonika\ = \T usw.) \textit{benannt.}
-	
 	\subsection{Quintverwandtschaft}
 	Mit Quintverwandschaft ist die Eigenschaft der \T, \S\ und \D\ beschrieben, dass diese jeweils einen Ton gemeinsam haben.\\
 	Die Quinte von \T\  ist der Grundton von \S, die Quinte von \T\ ist wiederum der Grundton der \D. (Dies lässt sich auch mit dem Quintenzirkel zeigen.)
@@ -477,7 +496,56 @@
 	\end{description}
 	Der neapolitanische Sextakkord ist im Chorsatz eher die Ausnahme. Wenn man ihn verwendet gilt es stets den Grundton der Subdomiante zu doppeln. Je nach dramatischem Kontext kann man den Neapolitaner entweder als Vorhalt oder in Verbindung mit einem Vorhaltsquartsextakkord für eine "moderate" Dramatik verwenden, oder die direkte Folge von neapolitanischem Sextakkord und Dominantseptakkord/verminderter Dominantseptakkord für einen stark dramatischen Effekt.
 	
-	\section{Nebendreiklänge in Dur}
+	\section{Nebenstufen in Dur}
 	
+	\subsection{Grundlagen zu Nebendreiklängen}
+	Die Dreiklänge über den Tonleiterstufen \dS{2},\dS{3}\ und \dS{6}\ heißen Nebendreiklänge. Sie sind Molldreiklänge und können als Stellvertreter der Hauptdreiklänge gesehen werden.\\
+	Jeder Hauptdreiklang hat zwei Nebendreiklänge in Terzabstand.\\ 
+	Der Nebendreiklang mit einem Abstand einer kleinen Terz heißt \textit{immer} Parallelklang und bei Mollklängen mit einem kleinen "p"\ neben dem der Hauptfunktion gekennzeichnet.\\
+	Der Nebendreiklang mit einer großen Terz Abstand heißt Gegenklang und wird analog zu Parallele mit einem "g"\ gekennzeichnet.\\
+	\begin{quote}
+		\Tp $\longleftrightarrow$ \T $\longleftrightarrow$ \Tg\\
+		\mS{6} $\longleftrightarrow$ \dS{1} $\longleftrightarrow$ \mS{3}
+	\end{quote}
+	Der Dominantgegenklang (eigentlich \vermStufe{7}) wird trotzdem mit reiner Quinte angenommen, um einen Molldreiklang zu bilden.\\
+	In Dur steht der Parallelklang stets unterhalb des Hauptklangs, der Gegenklang stets oberhalb.\\
+	Durch die Quintverwandschaft der Hauptdreiklänge, überschneiden sich die Nebendreiklänge. Das heißt es gibt \textit{verbundene Klänge}, die man verschiedene Beziehungsmöglichkeiten haben, also auch unterschiedlich gedeutet werden können. Die Eindeutigkeit ist nur im harmonischen Zusammenhang möglich.
+	\begin{align}
+	\text{\Tg} &= \text{\Dg}\quad & \text{\Tp} &= \text{\Sg} \nonumber\\
+	\text{\dS{3}} &= \text{\dS{3}}\quad & \text{\dS{6}} &= \text{\dS{6}} \nonumber
+	\end{align}
 	
+	\subsection{Verwandschaftsgrade}
+	Im Gegensatz zum Verwandschaftsverhältnis der Hauptdreiklänge, die über quintverwandt sind und deshalb nur einen gemeinsamen Ton besitzen, sind die Nebendreiklänge terzverwandt mit dem zugehörigen Hauptdreiklang und besitzen 2 gemeinsame Töne. Insbesondere besitzt der Parallelklang den Grundton des Hauptdreiklangs und ist somit von größerer harmonischer Bedeutung als der Gegenklang.
+	
+	\subsection{Satztechnik}
+	Es gibt zwei Verwendungsarten für Nebendreiklänge:
+	\begin{description}
+		\item[Vertreter der Hauptdreiklänge:] Der Nebendreiklang wird an Stelle des Hauptdreiklangs gesetzt und gilt damit als \textbf{Vertreter} des Hauptdreiklangs
+		\item[Kombination mit Hauptdreiklang:] Der Nebendreiklang wird mit dem Hauptdreiklang kombiniert.
+	\end{description}
+	
+	\subsubsection{Als Vertreter der Hauptdreiklänge}
+	Als Vertreter sind die Gegenklänge der Subdominante und der Dominante praktisch meist irrelevant, da .%TODO: Ergänzen
+	\begin{description}
+		\item[Tonikaparallele:] Die Tonikaparallele kann anstelle der Tonika treten und in Verbindung mit einer vorangehenden Domiante einen Trugschluss (\D-\Tp\ bzw. \dS{5}-\mS{6}) bilden. Geschieht diese Verbindung aber auf unbetonter Zählzeit und innerhalb eines Satzes, so hat es keine Schlusswirkung und wird deshalb "{}unechter Trugschluss"\ genannt.\\
+		Bei Trugschlussverbindungen kann es oft zu Oktav- und/oder Quintparallelen kommen, um dies zu vermeiden, gilt es die Terz des Folgeklangs zu verdoppeln.
+		
+		\item[Subdominantparallele:] Die Subdominante kann entweder mit Dominante als Folgeklang oder als Alternative zum subdominantischen Sextakkord verwendet werden.\\
+			\subitem Die Kadenz \Sp-\D-\T\ (\mS{2}-\dS{5}-\dS{1}) hat einen doppelten Quintfall durch 	die Quintverwandschaft der Klänge, und besitzt deshalb eine starke harmonische Wirkung.
+			\subitem Als Alternative zum subdominantischen Sextakkord ist wichtig zu beachten, dass beim \Shoch{6}{}\ der \textit{Subdominant}grundton verdoppelt wird, bei der Subdominantparallele der eigene Grundton. (Grundton statt Terz)
+			\subitem Die Subdominantparallele ist außerdem der einzige Nebendreiklang, den man durch die (kleine) Septime erweitern kann, sodass aus ein Mollseptimklang (kein Dominantseptakkord!) ensteht. Dieser ist in der ersten Umkehrung identisch zum Sixte ajoutée.
+	\end{description}
+
+	\section{Nebenstufen in Dur II}
+	\textit{In der Veranstaltung wurde das Folgende in einer zweiten Vorlesung angesprochen, thematisch ist es aber bezogen auf Abschnitt 15. Der Übersichtlichkeit und Vergleichbarkeit mit den Folien halber, wurde die Teilung hier, wenn auch nicht notwendig, trotzdem vollzogen.}
+	\section{Zwischendominanten}
+	\section{Ausweichungen}
+	\section{Nebenstufen in Moll}
+	\section{Zwischendominanten in Moll}
+	\section{Erweiterte Tonalität}
+	\section{Entfernte Terzverwandschaft}
+	\section{Alterationen}
+	\section{Modulationen}
+
 \end{document}
