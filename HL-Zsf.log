@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.6.20)  3 JUL 2019 23:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.6.20)  6 JUL 2019 00:12
 entering extended mode
 **./HL-Zsf.tex
 (HL-Zsf.tex
@@ -640,20 +640,20 @@ Writing index file HL-Zsf.idx
 (HL-Zsf.aux)
 \openout1 = `HL-Zsf.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
 
 (C:\Users\Valentin\AppData\Roaming\MiKTeX\2.9\tex/latex/ucs\ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
@@ -673,7 +673,7 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 \everyMPtoPDFconversion=\toks70
 )
 \AtBeginShipoutBox=\box47
-Package hyperref Info: Link coloring OFF on input line 59.
+Package hyperref Info: Link coloring OFF on input line 79.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -682,9 +682,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count266
 )
-LaTeX Info: Redefining \ref on input line 59.
-LaTeX Info: Redefining \pageref on input line 59.
-LaTeX Info: Redefining \nameref on input line 59.
+LaTeX Info: Redefining \ref on input line 79.
+LaTeX Info: Redefining \pageref on input line 79.
+LaTeX Info: Redefining \nameref on input line 79.
 
 (HL-Zsf.out) (HL-Zsf.out)
 \@outlinefile=\write5
@@ -692,12 +692,12 @@ LaTeX Info: Redefining \nameref on input line 59.
 
 \openout3 = `HL-Zsf.mx1'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 61.
+LaTeX Font Info:    Try loading font information for U+msa on input line 81.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 61.
+LaTeX Font Info:    Try loading font information for U+msb on input line 81.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -713,13 +713,13 @@ toc
 \openout6 = `HL-Zsf.toc'.
 
  [4] [5]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 76.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 96.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 76.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 96.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 96.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\t1cmss.fd"
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -727,21 +727,21 @@ File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.96 	
-       [1]pdfTeX warning (ext4): destination with the same identifier (name{pag
-e.2}) has been already used, duplicate ignored
+l.115 	
+        [1]pdfTeX warning (ext4): destination with the same identifier (name{pa
+ge.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.129 		\item[Terzlage:]
+l.148 		\item[Terzlage:]
                          Terz des Akkords im Sopran [2]pdfTeX warning (ext4): d
 estination with the same identifier (name{page.3}) has been already used, dupli
 cate ignored
 <to be read again> 
                    \relax 
-l.157 		\item[Verdeckte Parallelen:]
+l.176 		\item[Verdeckte Parallelen:]
                                      Verdeckte Parallelen sollten Ã¤hnlich w...
 [3]
-Overfull \hbox (6.13647pt too wide) in paragraph at lines 179--182
+Overfull \hbox (6.13647pt too wide) in paragraph at lines 198--201
 \T1/cmr/m/n/10 Daher soll-te man mög-lichst Stu-fen-be-we-gun-gen (Se-kund-schr
 it-te) und we-nig Sprün-
 
@@ -751,119 +751,137 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.183 	\subsection
+l.202 	\subsection
                   {Stimmkreuzung} [4]pdfTeX warning (ext4): destination with th
 e same identifier (name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.205 	
+l.224 	
         [5]
-Overfull \hbox (17.4115pt too wide) in paragraph at lines 207--210
+Overfull \hbox (17.4115pt too wide) in paragraph at lines 226--229
 \T1/cmr/m/n/10 Man un-ter-schei-det hier-bei zwi-schen har-mo-nie-frem-den Tö-n
 en auf leich-ter/unbetonter
 
 \hbox(7.49817+2.49939)x345.0, glue set - 1.0 []
 
 
-Overfull \hbox (0.52673pt too wide) in paragraph at lines 215--217
+Overfull \hbox (0.52673pt too wide) in paragraph at lines 234--236
 \T1/cmr/m/n/10 Durchgangsnoten ver-bin-den har-mo-nie-ei-ge-ne Tö-ne auf un-be-
 ton-ter Takt-zeit durch
 
 \hbox(6.8872+1.94397)x345.0, glue set - 1.0 []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
 
 \hbox(0.0+0.0)x345.0 []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
 
 \hbox(0.0+0.0)x345.0 []
 
 [7]
-Overfull \hbox (4.52853pt too wide) in paragraph at lines 269--270
+Overfull \hbox (4.52853pt too wide) in paragraph at lines 288--289
  []\T1/cmr/bx/n/10 Durchgangsquartsextakkord[] \T1/cmr/m/n/10 Beim Durch-gangs-
 quart-sext-ak-kord be-wegt sich
 
 \hbox(6.9011+1.94397)x345.0, glue set - 1.0 []
 
 
-Overfull \hbox (2.58401pt too wide) in paragraph at lines 269--270
+Overfull \hbox (2.58401pt too wide) in paragraph at lines 288--289
 \T1/cmr/m/n/10 der Bass-ton stu-fen-för-mig, qua-si mit Durch-gangs-no-ten, nur
  dass auf die-sen Durch-
 
 \hbox(6.8872+1.94397)x345.0, glue set - 1.0 []
 
 [8]
-Overfull \hbox (3.24551pt too wide) in paragraph at lines 280--283
+Overfull \hbox (3.24551pt too wide) in paragraph at lines 299--302
  []\T1/cmr/bx/n/10 Vorausnahmequartssextakkord[] \T1/cmr/m/n/10 Ein Vor-aus-nah
 -me-quart-sext-ak-kord funk-tio-
 
 \hbox(6.9011+1.94397)x345.0, glue set - 1.0 []
 
 
-Overfull \hbox (11.80565pt too wide) in paragraph at lines 285--287
+Overfull \hbox (11.80565pt too wide) in paragraph at lines 304--306
  []\T1/cmr/bx/n/10 Umkehrungsquartsextakkord[] \T1/cmr/m/n/10 Um-keh-rungs-quar
 t-sext-ak-kor-de ent-ste-hen, wenn
 
 \hbox(6.9011+1.94397)x345.0, glue set - 1.0 []
 
 
-Overfull \hbox (21.40053pt too wide) in paragraph at lines 290--293
+Overfull \hbox (21.40053pt too wide) in paragraph at lines 309--312
  []\T1/cmr/bx/n/10 Vorhaltsquartsextakkord[] \T1/cmr/m/n/10 Vor-halts-quart-sex
 t-ak-kor-de, auch ka-den-zie-ren-de Quart-
 
 \hbox(6.9011+1.94397)x345.0, glue set - 1.0 []
 
 [9] [10] [11]
-Overfull \hbox (22.50482pt too wide) in paragraph at lines 371--374
+Overfull \hbox (22.50482pt too wide) in paragraph at lines 390--393
 \T1/cmr/m/it/10 und Moll für den Ak-kord je-weils mit lei-te-rei-ge-nen No-ne. 
 Ein Dur-Dominantnonakkord
 
 \hbox(6.8872+1.94397)x345.0, glue set - 1.0 []
 
 [12] [13]
-Overfull \hbox (10.2625pt too wide) in paragraph at lines 395--397
+Overfull \hbox (10.2625pt too wide) in paragraph at lines 414--416
 [][][]\T1/cmr/m/n/10 . \T1/cmr/m/it/10 In der Stuf-en-theo-rie be-zeich-net man
  den Ak-kord ein-fach als (voll-)verminderten
 
 \hbox(7.52763+2.49939)x345.0, glue set - 1.0 []
 
 
-Overfull \hbox (4.91438pt too wide) in paragraph at lines 416--417
+Overfull \hbox (4.91438pt too wide) in paragraph at lines 435--436
 []\T1/cmr/m/n/10 In die-sem Fall führt man den Bass-ton schritt-
 
 \hbox(6.9011+1.94397)x319.99997, glue set - 1.0 []
 
 [14] [15] [16] [17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 483.
- [18]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 483.
+Underfull \hbox (badness 10000) in paragraph at lines 502--506
+
+
+\hbox(0.0+0.0)x345.0 []
+
+
+Overfull \hbox (5.62383pt too wide) in paragraph at lines 519--520
+\T1/cmr/m/n/10 Im Ge-gen-satz zum Ver-wand-schafts-ver-hält-nis der Haupt-drei-
+klän-ge, die über quint-
+
+\hbox(6.8872+1.94397)x345.0, glue set - 1.0 []
+
+
+Overfull \hbox (13.67752pt too wide) in paragraph at lines 524--525
+[]\T1/cmr/m/n/10 Der Ne-ben-drei-klang wird an Stel-le des Haupt-
+
+\hbox(6.9011+1.94397)x319.99997, glue set - 1.0 []
+
+
+Overfull \hbox (10.35889pt too wide) in paragraph at lines 525--526
+[]\T1/cmr/m/n/10 Der Ne-ben-drei-klang wird mit dem Haupt-
+
+\hbox(6.9011+1.94397)x319.99997, glue set - 1.0 []
+
+[18] [19] [20]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 606.
+ [21] [22]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 606.
  (HL-Zsf.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 483.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 483.
-
-
-Package rerunfilecheck Warning: File `HL-Zsf.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `HL-Zsf.out':
-(rerunfilecheck)             Before: D7810D0D1ECD18D3F372313BB9B32857;6598
-(rerunfilecheck)             After:  02A92535FC426CDEF9615D85C1AAE951;6667.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 483.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 606.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 606.
+Package rerunfilecheck Info: File `HL-Zsf.out' has not changed.
+(rerunfilecheck)             Checksum: 9AC09EF18F5396E1D62840EE00FC432F;8302.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 606.
  ) 
 Here is how much of TeX's memory you used:
- 9940 strings out of 492895
- 125097 string characters out of 3133470
- 243953 words of memory out of 3000000
- 13541 multiletter control sequences out of 15000+200000
- 90587 words of font info for 197 fonts, out of 3000000 for 9000
+ 10012 strings out of 492895
+ 125877 string characters out of 3133470
+ 244182 words of memory out of 3000000
+ 13586 multiletter control sequences out of 15000+200000
+ 92121 words of font info for 199 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,8n,37p,500b,672s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,13n,37p,500b,672s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Valentin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi6
 00\ecsl1200.pk> <C:\Users\Valentin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkn
 appen/ec/dpi600\ecss0700.pk> <C:\Users\Valentin\AppData\Local\MiKTeX\2.9\fonts/
@@ -881,13 +899,14 @@ lentin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/symbols/msbm7.pfb>
-Output written on HL-Zsf.pdf (23 pages, 302720 bytes).
+.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symb
+ols/msbm7.pfb>
+Output written on HL-Zsf.pdf (27 pages, 339673 bytes).
 PDF statistics:
- 1054 PDF objects out of 1200 (max. 8388607)
- 112 named destinations out of 1000 (max. 500000)
- 689 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1202 PDF objects out of 1440 (max. 8388607)
+ 137 named destinations out of 1000 (max. 500000)
+ 865 words of extra memory for PDF output out of 10000 (max. 10000000)
 
