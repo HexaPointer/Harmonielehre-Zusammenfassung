@@ -49,6 +49,8 @@
 \newcommand{\DQS}{\HH.D.5....}
 \newcommand{\Dhoch}[2]{\HH.D.#2.#1...}
 \newcommand{\Dhochv}[2]{\HH.\Ohne{D}.#2.#1...} %Verkürzter Dominantakkord
+\newcommand{\DDhoch}[2]{\HH.\DD.#2.#1...} 
+\newcommand{\DDhochv}[2]{\HH.\DDohne.#2.#1...} 
 \newcommand{\Dp}{\HH.Dp.....}
 \newcommand{\DSp}{\HH.Dp.3....}
 \newcommand{\DQSp}{\HH.Dp.5....}
@@ -61,6 +63,7 @@
 \newcommand{\Tm}{\HH.t.....}
 \newcommand{\TSm}{\HH.t.3....}
 \newcommand{\TQSm}{\HH.t.5....}
+
 
 \newcommand{\Sm}{\HH.s.....}
 \newcommand{\SSm}{\HH.s.3....}
@@ -594,10 +597,64 @@
 		\item wie auch bei \Dp\ und \Tg: der Melodieton an dieser Stelle könnte alternativ auch mit einer Subdominante harmonisiert werden.
 	\end{description}
 	In allen anderen Fällen handelt es sich um einen \Shoch{6}{}.
+	
 	\section{Zwischendominanten}
+	\subsection{Entstehung}
+	Zwischendominanten sind Dominantklänge die sich auf einen anderen Klang beziehen als die Tonika.
+	Im Notenbild sind die oft erkennbar an zusätzlichen Vorzeichen, da es sich bei Dominanten um Durakkorde handeln muss. Oft beziehen sich Zwischendominanten auf die Tonika- oder Subdominantparallele. Die einfachste Möglichkeit um aus einem beliebigen Durakkord eine Zwischendominante zu machen, ist das Hinzufügen der kleinen Septime als charakteristische Zusatzdissonanz.\\
+	\textit{In der Funktionstheorie schreibt man die Funktionsbezeichnung in Klammern und drückt damit aus, dass diese Funktion sich auf die Funktion nach der Klammer bezieht:} (\Dhoch{7}{})\ \Sp\\
+	\textit{In der Stufentheorie schreibt man die Stufe, dann einen Schrägstrich und dann die Stufe auf die sich die geschriebene Stufe bezieht:} \dShoch{5}{7}{}{}/\dS{2}\ \dS{2}
+	
+	\subsection{Doppeldominante}
+	Bezieht sich eine Zwischendominante auf die Dominante heißt diese Doppeldominante und erhält in der Funktionstheorie ihr eigenes Symbol: \DD. Die Klammern werden dann weggelassen. In der Stufentheorie gibt es kein gesondertes Symbol: \dS{5}/\dS{5}.\\
+	Die Doppeldominante, wie jede andere Zwischendominante auch, kann auch in Form eines \Dhoch{v}{} oder \Dhochv{7}{} auftreten: \DDhoch{v}{}\ und \DDhochv{7}{}.
+	
 	\section{Ausweichungen}
+	Wenn sich ein oder mehrere aufeinanderfolgende Akkorde auf eine andere Tonart beziehen, so bezeichnet man dies als Ausweichung. Eine Zwischendominante ist somit eine Ausweichung über einen Akkord.\\
+	\textit{In der Funktionstheorie schreibt man, ähnlich wie Zwischendominanten, die Funktionen zwischen Klammern: Aus} \bel{T}{}{6}{5}{}-\DD-\D\ \textit{wird} (\bel{S}{}{6}{5}{}-\D)-\D.
+	\textit{In der Stufentheorie schreibt man die Stufe, auf die sich die nachfolgende Ausweichung bezieht in einen Kasten [Hier wird nachfolgend ein Kreis statt einem Kasten verwendet] vorangestellt. (idealerweise in einer neuen Zeile):} \Kr{\dS{5}:}\ \mShoch{2}{6}{5}{}-\dS{5}-\dS{1}
+	
+	\subsection{Ausweichung / Modulation}
+	Bei einer Ausweichung wird die Haupttonart nur kurzfristig verlassen, und bleibt das tonale Zentrum.\\
+	Bei einer Modulation wird die Haupttonart für längere Zeit verlassen und das tonale Zentrum wechselt.
+	
+	\subsection{Ausweichungen innerhalb von Ausweichungen}
+	Tritt eine Ausweichung innerhalb einer anderen Ausweichung auf, so wird die innere mit runden, die äußere mit geschweiften Klammern gekennzeichnet. In der Stufentheorie wird einfach für die Akkorde der inneren Ausweichung eine neue Bezugsstufe geschrieben und die der äußeren Ausweichung nach der inneren Ausweichung erneut gekennzeichnet.
+	
+	\subsection{Rückbezogene Ausweichungen}
+	Ausweichungen können sich auch auf einen vorhergehenden Klang beziehen (erkennbar bspw. bei Halbschlüssen). In diesem Fall werden kennzeichnet man mit einem linksgerichteten Pfeil den Bezugsakkord.\\
+	\Sp\  $\leftarrow$\ (\D)\\
+	In der Stufentheorie ist die Position des Bezugsklangs nicht von Relevanz, das heißt die Zwischendominanten und Ausweichungen wie oben beschrieben gekennzeichnet. 
+	
+	\subsection{Ellipsen}
+	Eine Ellipse beschreibt, wenn statt einem antizipierten Klang ein anderer, unerwarteter Klang folgt. Die erwartete Funktion wird dann in eckigen Klammern über die tatsächliche Funktion geschrieben. In der Stufentheorie wird wieder mit den passenden Bezügen gearbeitet.
+	
 	\section{Nebenstufen in Moll}
+	\subsection{Grundlagen}
+	Mit harmonischem bzw. melodischem Moll erhält man Durdominante und Dursubdominante, deren Nebendreiklänge haben aber in Moll so gut wie keine Bedeutung.\\
+	Bei Moll gilt es zu beachten, dass der Gegenklang einer Funktion jetzt eine große Terz unter dem Ausgangsakkord liegt, die Parallele eine kleine Terz darüber.\\
+	
+	\subsection{Bedeutungen der einzelnen Nebenklänge}
+	\subsubsection{Nebendreiklänge von Dominante und Subdominante}
+	Zunächst sind alle Nebenklänge von Dominanten und Subdominanten in Dur oder Moll nicht von großer Bedeutung, denn:
+	\begin{description}
+		\item[Molldominantparallele/-gegenklang:] haben nichts mit der Molldominante gemein, der Gegenklang ist außerdem identisch mit der Molltonikaparallele
+		\item[Mollsubdominantparallele] Kommt ausschließlich als Molltonikagegenklang vor
+		\item[Mollsubdominantgegenklang] (mit tiefalteriertem Grundton für Durklang) ist identisch mit verselbstständigtem neapolitanischen Sextakkord und besitzt auch meist diesen Charakter
+		\item[Nebenklänge von Durvarianten der Hauptklänge] führen alle aus der Tonart hinaus
+	\end{description}
+	Es bleiben also eigentlich nur die Nebenklänge der Tonika.
+	
+	\subsubsection{Trugschluss in Moll}
+	Der Trugschluss mit dem Molltonikagegenklang hat bedeutung als Ausweichungsebene in Moll.
+	
+	\subsubsection{Terzfall und Steigende Terz}
+	In Moll ist die fallende Terz, bspw. in \bel{tP}{}{}{}{}-\Tm-\SSm, häufiger als die steigende Terz, da die Tonikaparallele die Tendenz zu Verselbstständigung hat.
+	
 	\section{Zwischendominanten in Moll}
+	Zwischen- und Doppeldominanten in Moll funktionieren sehr ähnlich zu solchen in Dur, auch rückbezogen. Ellipsen können ebenfalls nach selbem Prinzip verwendet werden.\\ 
+	Bei Ausweichungen in Moll ist die Ausweichungsebene oft die Tonikaparallele.
+	
 	\section{Erweiterte Tonalität}
 	\section{Entfernte Terzverwandschaft}
 	\section{Alterationen}
