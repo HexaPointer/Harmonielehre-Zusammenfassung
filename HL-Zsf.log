@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.6.20)  6 JUL 2019 00:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.6.20)  13 JUL 2019 13:30
 entering extended mode
 **./HL-Zsf.tex
 (HL-Zsf.tex
@@ -640,20 +640,20 @@ Writing index file HL-Zsf.idx
 (HL-Zsf.aux)
 \openout1 = `HL-Zsf.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
 
 (C:\Users\Valentin\AppData\Roaming\MiKTeX\2.9\tex/latex/ucs\ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
@@ -673,7 +673,7 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 \everyMPtoPDFconversion=\toks70
 )
 \AtBeginShipoutBox=\box47
-Package hyperref Info: Link coloring OFF on input line 79.
+Package hyperref Info: Link coloring OFF on input line 82.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -682,9 +682,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count266
 )
-LaTeX Info: Redefining \ref on input line 79.
-LaTeX Info: Redefining \pageref on input line 79.
-LaTeX Info: Redefining \nameref on input line 79.
+LaTeX Info: Redefining \ref on input line 82.
+LaTeX Info: Redefining \pageref on input line 82.
+LaTeX Info: Redefining \nameref on input line 82.
 
 (HL-Zsf.out) (HL-Zsf.out)
 \@outlinefile=\write5
@@ -692,12 +692,12 @@ LaTeX Info: Redefining \nameref on input line 79.
 
 \openout3 = `HL-Zsf.mx1'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 81.
+LaTeX Font Info:    Try loading font information for U+msa on input line 84.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 81.
+LaTeX Font Info:    Try loading font information for U+msb on input line 84.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -708,18 +708,25 @@ File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 
 {C:/Users/Valentin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (HL-Zsf.
 toc
-[2] [3])
+[2] [3]
+Overfull \hbox (6.7197pt too wide) in paragraph at lines 125--125
+ [][] [][]\T1/cmr/m/n/10 Unterscheidung Zwi-schen-do-mi-nan-ten oder ent-fern-t
+e Terz-ver-wandt- 
+
+\hbox(6.8872+1.94397)x345.0, glue set - 1.0 []
+
+[4])
 \tf@toc=\write6
 \openout6 = `HL-Zsf.toc'.
 
- [4] [5]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 96.
+ [5] [6]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 99.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 96.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 96.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 99.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 99.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\t1cmss.fd"
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -727,21 +734,21 @@ File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.115 	
+l.118 	
         [1]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.148 		\item[Terzlage:]
+l.151 		\item[Terzlage:]
                          Terz des Akkords im Sopran [2]pdfTeX warning (ext4): d
 estination with the same identifier (name{page.3}) has been already used, dupli
 cate ignored
 <to be read again> 
                    \relax 
-l.176 		\item[Verdeckte Parallelen:]
+l.179 		\item[Verdeckte Parallelen:]
                                      Verdeckte Parallelen sollten Ã¤hnlich w...
 [3]
-Overfull \hbox (6.13647pt too wide) in paragraph at lines 198--201
+Overfull \hbox (6.13647pt too wide) in paragraph at lines 201--204
 \T1/cmr/m/n/10 Daher soll-te man mög-lichst Stu-fen-be-we-gun-gen (Se-kund-schr
 it-te) und we-nig Sprün-
 
@@ -751,162 +758,378 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.202 	\subsection
+l.205 	\subsection
                   {Stimmkreuzung} [4]pdfTeX warning (ext4): destination with th
 e same identifier (name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.224 	
+l.227 	
         [5]
-Overfull \hbox (17.4115pt too wide) in paragraph at lines 226--229
+Overfull \hbox (17.4115pt too wide) in paragraph at lines 229--232
 \T1/cmr/m/n/10 Man un-ter-schei-det hier-bei zwi-schen har-mo-nie-frem-den Tö-n
 en auf leich-ter/unbetonter
 
 \hbox(7.49817+2.49939)x345.0, glue set - 1.0 []
 
 
-Overfull \hbox (0.52673pt too wide) in paragraph at lines 234--236
+Overfull \hbox (0.52673pt too wide) in paragraph at lines 237--239
 \T1/cmr/m/n/10 Durchgangsnoten ver-bin-den har-mo-nie-ei-ge-ne Tö-ne auf un-be-
 ton-ter Takt-zeit durch
 
 \hbox(6.8872+1.94397)x345.0, glue set - 1.0 []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
 
 
 \hbox(0.0+0.0)x345.0 []
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
+pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.250 	\begin{description}
+                           [6]
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 
 
 \hbox(0.0+0.0)x345.0 []
 
 [7]
-Overfull \hbox (4.52853pt too wide) in paragraph at lines 288--289
+Overfull \hbox (4.52853pt too wide) in paragraph at lines 291--292
  []\T1/cmr/bx/n/10 Durchgangsquartsextakkord[] \T1/cmr/m/n/10 Beim Durch-gangs-
 quart-sext-ak-kord be-wegt sich
 
 \hbox(6.9011+1.94397)x345.0, glue set - 1.0 []
 
 
-Overfull \hbox (2.58401pt too wide) in paragraph at lines 288--289
+Overfull \hbox (2.58401pt too wide) in paragraph at lines 291--292
 \T1/cmr/m/n/10 der Bass-ton stu-fen-för-mig, qua-si mit Durch-gangs-no-ten, nur
  dass auf die-sen Durch-
 
 \hbox(6.8872+1.94397)x345.0, glue set - 1.0 []
 
 [8]
-Overfull \hbox (3.24551pt too wide) in paragraph at lines 299--302
+Overfull \hbox (3.24551pt too wide) in paragraph at lines 302--305
  []\T1/cmr/bx/n/10 Vorausnahmequartssextakkord[] \T1/cmr/m/n/10 Ein Vor-aus-nah
 -me-quart-sext-ak-kord funk-tio-
 
 \hbox(6.9011+1.94397)x345.0, glue set - 1.0 []
 
 
-Overfull \hbox (11.80565pt too wide) in paragraph at lines 304--306
+Overfull \hbox (11.80565pt too wide) in paragraph at lines 307--309
  []\T1/cmr/bx/n/10 Umkehrungsquartsextakkord[] \T1/cmr/m/n/10 Um-keh-rungs-quar
 t-sext-ak-kor-de ent-ste-hen, wenn
 
 \hbox(6.9011+1.94397)x345.0, glue set - 1.0 []
 
 
-Overfull \hbox (21.40053pt too wide) in paragraph at lines 309--312
+Overfull \hbox (21.40053pt too wide) in paragraph at lines 312--315
  []\T1/cmr/bx/n/10 Vorhaltsquartsextakkord[] \T1/cmr/m/n/10 Vor-halts-quart-sex
 t-ak-kor-de, auch ka-den-zie-ren-de Quart-
 
 \hbox(6.9011+1.94397)x345.0, glue set - 1.0 []
 
 [9] [10] [11]
-Overfull \hbox (22.50482pt too wide) in paragraph at lines 390--393
+Overfull \hbox (22.50482pt too wide) in paragraph at lines 393--396
 \T1/cmr/m/it/10 und Moll für den Ak-kord je-weils mit lei-te-rei-ge-nen No-ne. 
 Ein Dur-Dominantnonakkord
 
 \hbox(6.8872+1.94397)x345.0, glue set - 1.0 []
 
 [12] [13]
-Overfull \hbox (10.2625pt too wide) in paragraph at lines 414--416
+Overfull \hbox (10.2625pt too wide) in paragraph at lines 417--419
 [][][]\T1/cmr/m/n/10 . \T1/cmr/m/it/10 In der Stuf-en-theo-rie be-zeich-net man
  den Ak-kord ein-fach als (voll-)verminderten
 
 \hbox(7.52763+2.49939)x345.0, glue set - 1.0 []
 
 
-Overfull \hbox (4.91438pt too wide) in paragraph at lines 435--436
+Overfull \hbox (4.91438pt too wide) in paragraph at lines 438--439
 []\T1/cmr/m/n/10 In die-sem Fall führt man den Bass-ton schritt-
 
 \hbox(6.9011+1.94397)x319.99997, glue set - 1.0 []
 
 [14] [15] [16] [17]
-Underfull \hbox (badness 10000) in paragraph at lines 502--506
+Underfull \hbox (badness 10000) in paragraph at lines 505--509
 
 
 \hbox(0.0+0.0)x345.0 []
 
 
-Overfull \hbox (5.62383pt too wide) in paragraph at lines 519--520
+Overfull \hbox (5.62383pt too wide) in paragraph at lines 522--523
 \T1/cmr/m/n/10 Im Ge-gen-satz zum Ver-wand-schafts-ver-hält-nis der Haupt-drei-
 klän-ge, die über quint-
 
 \hbox(6.8872+1.94397)x345.0, glue set - 1.0 []
 
 
-Overfull \hbox (13.67752pt too wide) in paragraph at lines 524--525
+Overfull \hbox (13.67752pt too wide) in paragraph at lines 527--528
 []\T1/cmr/m/n/10 Der Ne-ben-drei-klang wird an Stel-le des Haupt-
 
 \hbox(6.9011+1.94397)x319.99997, glue set - 1.0 []
 
 
-Overfull \hbox (10.35889pt too wide) in paragraph at lines 525--526
+Overfull \hbox (10.35889pt too wide) in paragraph at lines 528--529
 []\T1/cmr/m/n/10 Der Ne-ben-drei-klang wird mit dem Haupt-
 
 \hbox(6.9011+1.94397)x319.99997, glue set - 1.0 []
 
-[18] [19] [20]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 606.
- [21] [22]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 606.
+[18] [19] [20] [21] [22]
+Underfull \hbox (badness 10000) in paragraph at lines 634--636
+
+
+\hbox(0.0+0.0)x345.0 []
+
+
+Overfull \hbox (5.8947pt too wide) in paragraph at lines 644--645
+[]\T1/cmr/m/n/10 führen al-le aus der Ton-
+
+\hbox(6.9011+1.94397)x319.99997, glue set - 1.0 []
+
+
+Overfull \hbox (3.49823pt too wide) in paragraph at lines 649--650
+\T1/cmr/m/n/10 Der Trug-schluss mit dem Moll-to-ni-ka-ge-gen-klang hat be-deu-t
+ung als Aus-wei-chungs-
+
+\hbox(6.8872+1.94397)x345.0, glue set - 1.0 []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 659--661
+
+
+\hbox(0.0+0.0)x345.0 []
+
+
+Overfull \hbox (10.76295pt too wide) in paragraph at lines 669--670
+[]\T1/cmr/m/n/10 Die Ne-ben-drei-klän-ge ge-hen (bis
+
+\hbox(7.49817+2.49939)x319.99997, glue set - 1.0 []
+
+
+Overfull \hbox (7.42072pt too wide) in paragraph at lines 671--672
+[]\T1/cmr/m/n/10 Die Dur-ne-ben-klän-ge wer-den "ver-dur-
+
+\hbox(6.9011+1.94397)x319.99997, glue set - 1.0 []
+
+[24]
+Overfull \hbox (9.22305pt too wide) in paragraph at lines 673--674
+[]\T1/cmr/m/n/10 Hier wer-den dann in Dur
+
+\hbox(6.9011+1.94397)x319.99997, glue set - 1.0 []
+
+
+Overfull \hbox (2.55801pt too wide) in paragraph at lines 675--676
+[]\T1/cmr/m/n/10 Man ver-wen-det al-so die Ne-
+
+\hbox(6.9011+1.94397)x319.99997, glue set - 1.0 []
+
+
+Underfull \hbox (badness 10000) detected at line 690
+[]
+
+\hbox(4.30367+0.0)x7.6648 []
+
+
+Underfull \hbox (badness 10000) detected at line 690
+[]
+
+\hbox(4.01714+0.024)x6.03079 []
+
+
+Underfull \hbox (badness 10000) detected at line 690
+[]
+
+\hbox(4.30367+0.0)x7.6648 []
+
+
+Underfull \hbox (badness 10000) detected at line 690
+[]
+
+\hbox(4.01714+0.024)x6.03079 []
+
+[25]
+Underfull \hbox (badness 10000) detected at line 699
+[]
+
+\hbox(4.01714+0.024)x6.03079 []
+
+
+Underfull \hbox (badness 10000) detected at line 703
+[]
+
+\hbox(4.01714+0.024)x6.03079 []
+
+
+Underfull \hbox (badness 10000) detected at line 703
+[]
+
+\hbox(4.01714+0.024)x6.03079 []
+
+
+Overfull \hbox (0.99109pt too wide) detected at line 705
+[]
+
+\hbox(3.80565+0.23549)x4.98105 []
+
+
+Overfull \hbox (0.99109pt too wide) detected at line 705
+[]
+
+\hbox(3.80565+0.23549)x4.98105 []
+
+
+Overfull \hbox (3.86047pt too wide) in paragraph at lines 705--707
+[]\T1/cmr/m/n/10 Die tie-fal-te-rier-te Quin-te im Do-mi-nan-t-ak-kord strebt z
+um
+
+\hbox(6.9011+1.94397)x319.99997, glue set - 1.0 []
+
+
+Underfull \hbox (badness 10000) detected at line 708
+[]
+
+\hbox(4.01714+0.024)x6.03079 []
+
+
+Overfull \hbox (0.99109pt too wide) detected at line 710
+[]
+
+\hbox(3.80565+0.23549)x4.98105 []
+
+
+Overfull \hbox (0.99109pt too wide) detected at line 710
+[]
+
+\hbox(3.80565+0.23549)x4.98105 []
+
+
+Overfull \hbox (0.99109pt too wide) detected at line 712
+[]
+
+\hbox(3.80565+0.23549)x4.98105 []
+
+
+Overfull \hbox (0.99109pt too wide) detected at line 712
+[]
+
+\hbox(3.80565+0.23549)x4.98105 []
+
+[26]
+Overfull \hbox (0.99109pt too wide) detected at line 719
+[]
+
+\hbox(3.80565+0.23549)x4.98105 []
+
+
+Overfull \hbox (0.99109pt too wide) detected at line 719
+[]
+
+\hbox(3.80565+0.23549)x4.98105 []
+
+
+Overfull \hbox (0.99109pt too wide) detected at line 719
+[]
+
+\hbox(3.80565+0.23549)x4.98105 []
+
+
+Overfull \hbox (0.99109pt too wide) detected at line 723
+[]
+
+\hbox(3.80565+0.23549)x4.98105 []
+
+
+Overfull \hbox (0.99109pt too wide) detected at line 723
+[]
+
+\hbox(3.80565+0.23549)x4.98105 []
+
+
+Overfull \hbox (5.46565pt too wide) in paragraph at lines 726--726
+[]\T1/cmr/bx/n/12 Mehrdeutigkeit des klang-li-chen Do-mi-nant-sep-t-ak-kords 
+
+\hbox(8.28131+2.33276)x345.0, glue set - 1.0 []
+
+
+Overfull \hbox (0.99109pt too wide) detected at line 729
+[]
+
+\hbox(3.80565+0.23549)x4.98105 []
+
+
+Overfull \hbox (0.99109pt too wide) detected at line 729
+[]
+
+\hbox(3.80565+0.23549)x4.98105 []
+
+
+Overfull \hbox (0.99109pt too wide) detected at line 729
+[]
+
+\hbox(3.80565+0.23549)x4.98105 []
+
+
+Overfull \hbox (0.99109pt too wide) detected at line 729
+[]
+
+\hbox(3.80565+0.23549)x4.98105 []
+
+
+Overfull \hbox (0.99109pt too wide) detected at line 729
+[]
+
+\hbox(3.80565+0.23549)x4.98105 []
+
+[27] [28]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 776.
+ [29]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 776.
  (HL-Zsf.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 606.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 606.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 776.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 776.
 Package rerunfilecheck Info: File `HL-Zsf.out' has not changed.
-(rerunfilecheck)             Checksum: 9AC09EF18F5396E1D62840EE00FC432F;8302.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 606.
+(rerunfilecheck)             Checksum: DED4AE7E6B8555CC032D227643D7B5D6;11015.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 776.
  ) 
 Here is how much of TeX's memory you used:
- 10012 strings out of 492895
- 125877 string characters out of 3133470
- 244182 words of memory out of 3000000
- 13586 multiletter control sequences out of 15000+200000
- 92121 words of font info for 199 fonts, out of 3000000 for 9000
+ 10112 strings out of 492895
+ 127371 string characters out of 3133470
+ 244210 words of memory out of 3000000
+ 13635 multiletter control sequences out of 15000+200000
+ 96979 words of font info for 213 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,13n,37p,500b,672s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,13n,37p,578b,672s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Valentin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi6
-00\ecsl1200.pk> <C:\Users\Valentin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkn
-appen/ec/dpi600\ecss0700.pk> <C:\Users\Valentin\AppData\Local\MiKTeX\2.9\fonts/
-pk/ljfour/jknappen/ec/dpi600\ecss0500.pk> <C:\Users\Valentin\AppData\Local\MiKT
-eX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\Valentin\AppDa
-ta\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1000.pk> <C:\Users\V
-alentin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk
+00\ecbi1000.pk> <C:\Users\Valentin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkn
+appen/ec/dpi600\ecss0900.pk> <C:\Users\Valentin\AppData\Local\MiKTeX\2.9\fonts/
+pk/ljfour/jknappen/ec/dpi600\ecsl1200.pk> <C:\Users\Valentin\AppData\Local\MiKT
+eX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0700.pk> <C:\Users\Valentin\AppDa
+ta\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0500.pk> <C:\Users\V
+alentin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk
 > <C:\Users\Valentin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecbx1000.pk> <C:\Users\Valentin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkna
-ppen/ec/dpi600\ecbx1200.pk> <C:\Users\Valentin\AppData\Local\MiKTeX\2.9\fonts/p
-k/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Valentin\AppData\Local\MiKTe
-X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Valentin\AppDat
-a\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Va
-lentin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symb
-ols/msbm7.pfb>
-Output written on HL-Zsf.pdf (27 pages, 339673 bytes).
+0\ecss1000.pk> <C:\Users\Valentin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkna
+ppen/ec/dpi600\ecbx2074.pk> <C:\Users\Valentin\AppData\Local\MiKTeX\2.9\fonts/p
+k/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Valentin\AppData\Local\MiKTe
+X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Valentin\AppDat
+a\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Va
+lentin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk>
+ <C:\Users\Valentin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
+\ecrm1200.pk> <C:\Users\Valentin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecrm1728.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmbx7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+mi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/latxfont/lcirclew.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/symbols/msbm7.pfb>
+Output written on HL-Zsf.pdf (35 pages, 407581 bytes).
 PDF statistics:
- 1202 PDF objects out of 1440 (max. 8388607)
- 137 named destinations out of 1000 (max. 500000)
- 865 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1444 PDF objects out of 1728 (max. 8388607)
+ 176 named destinations out of 1000 (max. 500000)
+ 1121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

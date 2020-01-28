@@ -1,5 +1,5 @@
 \babel@toc {ngerman}{}
-\contentsline {part}{Vorwort}{5}{section*.1}% 
+\contentsline {part}{Vorwort}{6}{section*.1}% 
 \contentsline {part}{I\hspace {1em}Wintersemester 2018/2019: Vorlesungen 01-13}{1}{part.1}% 
 \contentsline {section}{\numberline {1}Grundlagen}{1}{section.1}% 
 \contentsline {subsection}{\numberline {1.1}Hauptdreikl\IeC {\"a}nge}{1}{subsection.1.1}% 
@@ -77,7 +77,7 @@
 \contentsline {subsubsection}{\numberline {11.1.2}Aufl\IeC {\"o}sen bei Quinte im Bass}{14}{subsubsection.11.1.2}% 
 \contentsline {subsubsection}{\numberline {11.1.3}Aufl\IeC {\"o}sen bei Septime im Bass}{14}{subsubsection.11.1.3}% 
 \contentsline {subsubsection}{\numberline {11.1.4}Aufl\IeC {\"o}sen bei None im Bass}{15}{subsubsection.11.1.4}% 
-\contentsline {subsection}{\numberline {11.2}Besonderheit des verminderten Quartsextakkords}{15}{subsection.11.2}% 
+\contentsline {subsection}{\numberline {11.2}Besonderheit des verminderten Septakkordes}{15}{subsection.11.2}% 
 \contentsline {section}{\numberline {12}Sixte ajout\IeC {\'e}e}{15}{section.12}% 
 \contentsline {subsection}{\numberline {12.1}Entstehung des Sixte ajout\IeC {\'e}e}{15}{subsection.12.1}% 
 \contentsline {subsection}{\numberline {12.2}Bedeutung des Sixte ajout\IeC {\'e}e}{15}{subsection.12.2}% 
@@ -104,10 +104,42 @@
 \contentsline {subsubsection}{\numberline {16.6.1}Tonikagegenklang oder Dominantparallele}{21}{subsubsection.16.6.1}% 
 \contentsline {subsubsection}{\numberline {16.6.2}Subdominantparallele oder subdominantischer Sextakkord}{21}{subsubsection.16.6.2}% 
 \contentsline {section}{\numberline {17}Zwischendominanten}{22}{section.17}% 
+\contentsline {subsection}{\numberline {17.1}Entstehung}{22}{subsection.17.1}% 
+\contentsline {subsection}{\numberline {17.2}Doppeldominante}{22}{subsection.17.2}% 
 \contentsline {section}{\numberline {18}Ausweichungen}{22}{section.18}% 
-\contentsline {section}{\numberline {19}Nebenstufen in Moll}{22}{section.19}% 
-\contentsline {section}{\numberline {20}Zwischendominanten in Moll}{22}{section.20}% 
-\contentsline {section}{\numberline {21}Erweiterte Tonalit\IeC {\"a}t}{22}{section.21}% 
-\contentsline {section}{\numberline {22}Entfernte Terzverwandschaft}{22}{section.22}% 
-\contentsline {section}{\numberline {23}Alterationen}{22}{section.23}% 
-\contentsline {section}{\numberline {24}Modulationen}{22}{section.24}% 
+\contentsline {subsection}{\numberline {18.1}Ausweichung / Modulation}{22}{subsection.18.1}% 
+\contentsline {subsection}{\numberline {18.2}Ausweichungen innerhalb von Ausweichungen}{22}{subsection.18.2}% 
+\contentsline {subsection}{\numberline {18.3}R\IeC {\"u}ckbezogene Ausweichungen}{23}{subsection.18.3}% 
+\contentsline {subsection}{\numberline {18.4}Ellipsen}{23}{subsection.18.4}% 
+\contentsline {section}{\numberline {19}Nebenstufen in Moll}{23}{section.19}% 
+\contentsline {subsection}{\numberline {19.1}Grundlagen}{23}{subsection.19.1}% 
+\contentsline {subsection}{\numberline {19.2}Bedeutungen der einzelnen Nebenkl\IeC {\"a}nge}{23}{subsection.19.2}% 
+\contentsline {subsubsection}{\numberline {19.2.1}Nebendreikl\IeC {\"a}nge von Dominante und Subdominante}{23}{subsubsection.19.2.1}% 
+\contentsline {subsubsection}{\numberline {19.2.2}Trugschluss in Moll}{24}{subsubsection.19.2.2}% 
+\contentsline {subsubsection}{\numberline {19.2.3}Terzfall und Steigende Terz}{24}{subsubsection.19.2.3}% 
+\contentsline {section}{\numberline {20}Zwischendominanten in Moll}{24}{section.20}% 
+\contentsline {section}{\numberline {21}Erweiterte Tonalit\IeC {\"a}t}{24}{section.21}% 
+\contentsline {subsection}{\numberline {21.1}Vertauschter Trugschluss}{24}{subsection.21.1}% 
+\contentsline {section}{\numberline {22}Entfernte Terzverwandtschaft}{24}{section.22}% 
+\contentsline {subsection}{\numberline {22.1}Grade der Terzverwandtschaft}{24}{subsection.22.1}% 
+\contentsline {subsection}{\numberline {22.2}Unterscheidung Zwischendominanten oder entfernte Terzverwandtschaft}{25}{subsection.22.2}% 
+\contentsline {subsection}{\numberline {22.3}Enharmonische Verwechslung}{25}{subsection.22.3}% 
+\contentsline {section}{\numberline {23}Alterationen}{25}{section.23}% 
+\contentsline {subsection}{\numberline {23.1}Grundlegendes}{25}{subsection.23.1}% 
+\contentsline {subsection}{\numberline {23.2}Arten von Alterationen}{26}{subsection.23.2}% 
+\contentsline {subsubsection}{\numberline {23.2.1}Alterierte Dominanten}{26}{subsubsection.23.2.1}% 
+\contentsline {subsubsection}{\numberline {23.2.2}Alterierte Subdomiantsexten}{27}{subsubsection.23.2.2}% 
+\contentsline {subsubsection}{\numberline {23.2.3}Alterierte Dominantseptime}{27}{subsubsection.23.2.3}% 
+\contentsline {subsection}{\numberline {23.3}Mehrdeutigkeit des klanglichen Dominantseptakkords}{27}{subsection.23.3}% 
+\contentsline {section}{\numberline {24}Modulationen}{28}{section.24}% 
+\contentsline {subsection}{\numberline {24.1}Definition und Zweck}{28}{subsection.24.1}% 
+\contentsline {subsection}{\numberline {24.2}Arten von Modulation}{28}{subsection.24.2}% 
+\contentsline {subsubsection}{\numberline {24.2.1}direkt-diatonische Modulation}{28}{subsubsection.24.2.1}% 
+\contentsline {subsubsection}{\numberline {24.2.2}indirekt-diatonische Modulation}{28}{subsubsection.24.2.2}% 
+\contentsline {subsubsection}{\numberline {24.2.3}chromatische Modulation}{28}{subsubsection.24.2.3}% 
+\contentsline {subsubsection}{\numberline {24.2.4}enharmonische Modulation}{28}{subsubsection.24.2.4}% 
+\contentsline {subsubsection}{\numberline {24.2.5}chromatisch-enharmonische Modulation}{28}{subsubsection.24.2.5}% 
+\contentsline {subsubsection}{\numberline {24.2.6}tonzentrale Modulation}{29}{subsubsection.24.2.6}% 
+\contentsline {subsubsection}{\numberline {24.2.7}lineare Modulation}{29}{subsubsection.24.2.7}% 
+\contentsline {subsubsection}{\numberline {24.2.8}Modulation durch Tonalit\IeC {\"a}tsspr\IeC {\"u}nge}{29}{subsubsection.24.2.8}% 
+\contentsline {section}{\numberline {25}Schlussbemerkungen}{29}{section.25}% 
